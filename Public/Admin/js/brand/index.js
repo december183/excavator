@@ -132,9 +132,8 @@ function setSort(id,obj){
         dataType:'json',
         success:function(res){
             if(res.status == 200){
-                obj.val(sort);
-            }else{
                 alert(res.message);
+                obj.val(sort);
             }
         }
     });

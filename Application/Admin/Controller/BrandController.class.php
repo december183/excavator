@@ -95,7 +95,7 @@ class BrandController extends BaseController{
     }
     public function setSort(){
         $data=I('param.');
-        if($this->brand->create($data)){
+        if($this->brand->create($data,4)){
             if($this->brand->save()){
                 $this->apiReturn(200,'修改排序成功');
             }else{
