@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="app">
+<head>
+    <meta charset="utf-8" />
+    <block name="title"><title>Notebook | Web Application</title></block>
+    <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/app.v2.css" type="text/css" />
+    <!-- App -->
+    <script src="__PUBLIC__/Admin/js/app.v2.js"></script>
+    <script src="__PUBLIC__/Admin/js/function.js"></script>
+    <!--[if lt IE 9]>
+    <script src="__PUBLIC__/Admin/js/ie/html5shiv.js" cache="false"></script>
+    <script src="__PUBLIC__/Admin/js/ie/respond.min.js" cache="false"></script>
+    <script src="__PUBLIC__/Admin/js/ie/excanvas.js" cache="false"></script> <![endif]-->
+</head>
+<body>
+<section class="vbox">
+    <!-- header -->
+    <include file="Public/header" />
+    <!-- /header -->
+    <section>
+        <section class="hbox stretch">
+            <!-- .aside -->
+            <include file="Public/sidelight" />
+            <!-- /.aside -->
+            <!-- content -->
+            <block name="content"></block>
+            <!-- /content -->
+            <!-- rightside -->
+            <include file="Public/rightside" />
+            <!-- /rightside -->
+        </section>
+    </section>
+</section>
+</body>
+</html>

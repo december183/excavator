@@ -1,0 +1,96 @@
+<extend name="Public/base" />
+<block name="title"><title>提现列表-提现管理</title></block>
+<block name="content">
+    <!--datepicker-->
+    <link rel="stylesheet" href="__PUBLIC__/Admin/js/datepicker/datepicker.css" type="text/css" cache="false" />
+    <script src="__PUBLIC__/Admin/js/datepicker/bootstrap-datepicker.js" cache="false"></script>
+    <!-- jQuery -->
+    <script src="__PUBLIC__/Admin/js/jquery.min.js"></script>
+    <!-- jQuery.form.js -->
+    <script src="__PUBLIC__/Admin/js/jquery.form.js"></script>
+
+    <section class="vbox">
+        <section class="scrollable padder">
+            <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+                <li><a href="__MODULE__/Index/index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="__CONTROLLER__/index">提现列表</a></li>
+            </ul>
+            <div class="m-b-md">
+                <h3 class="m-b-none">提现列表</h3>
+            </div>
+            <section class="panel panel-default">
+                <header class="panel-heading"> 提现列表 </header>
+                <form id="ajaxForm" action="__CONTROLLER__/index">
+                    <div class="row text-sm wrapper">
+                        <div class="col-sm-5 m-b-xs">
+                            <select class="input-sm form-control input-s-sm inline" name="action">
+                                <option value="0">批量操作</option>
+                                <option value="1">批量设置</option>
+                            </select>
+                            <button class="btn btn-sm btn-default" type="submit">提交</button>
+                        </div>
+                        <div class="col-sm-4 m-b-xs">
+                            <div class="row text-sm">
+                                <div class="col-sm-6">
+                                    <input name="starttime" id="starttime" class="input-sm input-s datepicker-input form-control" size="16" placeholder="starttime" type="text" value="" data-date-format="yyyy-mm-dd">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input name="endtime" id="endtime" class="input-sm input-s datepicker-input form-control" size="16" placeholder="endtime" type="text" value="" data-date-format="yyyy-mm-dd">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="input-group">
+                                <input type="text" name="keywords" id="keywords" class="input-sm form-control" placeholder="请输入提现人姓名">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-sm btn-default" id="searchbtn" type="button">提交</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped b-t b-light text-sm" id="table-info">
+                            <thead>
+                            <tr>
+                                <th width="20"><input type="checkbox"></th>
+                                <th>提现姓名</th>
+                                <th>手机号码</th>
+                                <th>提现金额</th>
+                                <th>账号类型</th>
+                                <th>提现账号</th>
+                                <th>提现日期</th>
+                                <th>提现状态</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="withdrawlist" id="vo">
+                                <tr>
+                                    <td><input type="checkbox" name="ids[]" value="{$vo.id}"></td>
+                                    <td>{$vo.realname}</td>
+                                    <td>{$vo.phone}</td>
+                                    <td>{$vo.money}</td>
+                                    <td><if condition="$vo['type'] eq 1">微信<elseif condition="$vo['type'] eq 2" />支付宝<else /></if></td>
+                                    <td>{$vo.account}</td>
+                                    <td>{$vo.datetime|date='Y-m-d',###}</td>
+                                    <td><if condition="$vo['status'] eq 1"><a href="#" onclick="setStatus({$vo.id},this)"><span class="text-primary text">已处理</span></a><else /><a href="#" onclick="setStatus({$vo.id},this)"><span class="text-danger text">待处理</span></a></if></td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+                <footer class="panel-footer">
+                    <div class="row">
+                        <div class="col-sm-5 hidden-xs"></div>
+                        <div class="col-sm-4 text-center-xs" id="page">
+                            <ul class="pagination pagination-sm m-t-none m-b-none">
+                                {$page}
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 text-right text-center-xs"></div>
+                    </div>
+                </footer>
+            </section>
+        </section>
+        <script src="__PUBLIC__/Admin/js/withdraw/index.js"></script>
+</block>

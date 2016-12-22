@@ -1,0 +1,91 @@
+<extend name="Public/base" />
+<block name="title"><title>广告列表-广告管理</title></block>
+<block name="content">
+    <!-- jQuery -->
+    <script src="__PUBLIC__/Admin/js/jquery.min.js"></script>
+    <!-- jQuery.form.js -->
+    <script src="__PUBLIC__/Admin/js/jquery.form.js"></script>
+
+    <section class="vbox">
+        <section class="scrollable padder">
+            <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+                <li><a href="__MODULE__/Index/index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="__CONTROLLER__/index">广告列表</a></li>
+                <li><a href="__CONTROLLER__/add">新增广告</a></li>
+            </ul>
+            <div class="m-b-md">
+                <h3 class="m-b-none">广告列表</h3>
+            </div>
+            <section class="panel panel-default">
+                <header class="panel-heading"> 广告列表 </header>
+                <form id="ajaxForm" action="__CONTROLLER__/index">
+                    <div class="row text-sm wrapper">
+                        <div class="col-sm-6 m-b-xs">
+                            <select class="input-sm form-control input-s-sm inline" name="action">
+                                <option value="0">批量操作</option>
+                                <option value="1">删除选中</option>
+                                <option value="2">批量设置</option>
+                            </select>
+                            <button class="btn btn-sm btn-default" type="submit">提交</button>
+                        </div>
+                        <div class="col-sm-2 m-b-xs">
+                            <select name="type" id="typeid" class="input-sm form-control input-s-sm inline">
+                                <option value="0">广告类型</option>
+                                <volist name="typelist" id="vo">
+                                    <option value="{$vo.id}">{$vo.name}</option>
+                                </volist>
+                            </select>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group">
+                                <input type="text" name="keywords" id="keywords" class="input-sm form-control" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-sm btn-default" id="searchbtn" type="button">提交</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped b-t b-light text-sm" id="table-info">
+                            <thead>
+                            <tr>
+                                <th width="20"><input type="checkbox"></th>
+                                <th class="th-sortable" data-toggle="class"> 广告图片 <span class="th-sort"> <i class="fa fa-sort-down text"></i> <i class="fa fa-sort-up text-active"></i> <i class="fa fa-sort"></i> </span> </th>
+                                <th>广告标题</th>
+                                <th>广告链接</th>
+                                <th>广告排序</th>
+                                <th>展示状态</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="adverlist" id="vo">
+                                <tr>
+                                    <td><input type="checkbox" name="ids[]" value="{$vo.id}"></td>
+                                    <td><a href="#" class="pull-left thumb-sm"><img src="{$vo.pic}" class="img-rounded"></a></td>
+                                    <td>{$vo.title}</td>
+                                    <td>{$vo.linkurl}</td>
+                                    <td><input type="text" name="sort[{$vo.id}]" class="form-control short" value="{$vo.sort}" onblur="setSort({$vo.id},this);"></td>
+                                    <td><if condition="$vo['isrec'] eq 1"><a href="#" onclick="setStatus({$vo.id},this)">展示中</a><else /><a href="#" onclick="setStatus({$vo.id},this)">未展示</a></if></td>
+                                    <td><a href="__CONTROLLER__/edit/id/{$vo.id}" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel({$vo.id},this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+                <footer class="panel-footer">
+                    <div class="row">
+                        <div class="col-sm-5 hidden-xs"></div>
+                        <div class="col-sm-4 text-center-xs" id="page">
+                            <ul class="pagination pagination-sm m-t-none m-b-none">
+                                {$page}
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 text-right text-center-xs"></div>
+                    </div>
+                </footer>
+            </section>
+        </section>
+        <script src="__PUBLIC__/Admin/js/adver/index.js"></script>
+</block>

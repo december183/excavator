@@ -1,0 +1,150 @@
+[ 2016-12-14T13:12:32+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:32+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:33+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:36+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:37+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:39+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:40+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:40+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:44+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:45+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:45+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:52+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:52+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:12:53+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:13:06+08:00 ] ::1 /excavator/ajaxSearch?keywords=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:13:08+08:00 ] ::1 /excavator/ajaxSearch?keywords=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:13:09+08:00 ] ::1 /excavator/ajaxSearch?keywords=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:13:10+08:00 ] ::1 /excavator/ajaxSearch?keywords=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:13:10+08:00 ] ::1 /excavator/ajaxSearch?keywords=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:13:10+08:00 ] ::1 /excavator/ajaxSearch?keywords=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:13:10+08:00 ] ::1 /excavator/ajaxSearch?keywords=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:13:11+08:00 ] ::1 /excavator/ajaxSearch?keywords=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:13:19+08:00 ] ::1 /excavator/ajaxSearch?keywords=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T13:13:50+08:00 ] ::1 /excavator/ajaxSearch?keywords=admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-14T15:42:51+08:00 ] ::1 /excavator/Public/Admin/fonts/glyphicons-halflings-regular.woff
+ERR: 无法加载控制器:Public
+
+[ 2016-12-14T15:42:51+08:00 ] ::1 /excavator/Public/Admin/fonts/glyphicons-halflings-regular.ttf
+ERR: 无法加载控制器:Public
+

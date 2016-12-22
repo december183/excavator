@@ -1,0 +1,81 @@
+<extend name="Public/base" />
+<block name="title"><title>地区列表-地区管理</title></block>
+<block name="content">
+    <!-- jQuery -->
+    <script src="__PUBLIC__/Admin/js/jquery.min.js"></script>
+    <!-- jQuery.form.js -->
+    <script src="__PUBLIC__/Admin/js/jquery.form.js"></script>
+
+    <section class="vbox">
+        <section class="scrollable padder">
+            <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+                <li><a href="__MODULE__/Index/index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="__CONTROLLER__/index">地区列表</a></li>
+            </ul>
+            <div class="m-b-md">
+                <h3 class="m-b-none">地区列表</h3>
+            </div>
+            <section class="panel panel-default">
+                <header class="panel-heading"> 地区列表 </header>
+                <form id="ajaxForm" action="__CONTROLLER__/index">
+                    <div class="row text-sm wrapper">
+                        <div class="col-sm-5 m-b-xs">
+                            <select class="input-sm form-control input-s-sm inline" name="action">
+                                <option value="0">批量操作</option>
+                            </select>
+                            <button class="btn btn-sm btn-default" type="button">提交</button>
+                        </div>
+                        <div class="col-sm-3 m-b-xs"></div>
+                        <div class="col-sm-4">
+                            <div class="input-group">
+                                <input type="text" name="keywords" id="keywords" class="input-sm form-control" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-sm btn-default" id="searchbtn" type="button">提交</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped b-t b-light text-sm" id="table-info">
+                            <thead>
+                            <tr>
+                                <th width="20"><input type="checkbox"></th>
+                                <th>地区编号</th>
+                                <th>地区名称</th>
+                                <th>上级编号</th>
+                                <th>电话区号</th>
+                                <th>地区级别</th>
+                                <th>级别名称</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="arealist" id="vo">
+                                <tr>
+                                    <td><input type="checkbox" name="ids[]" value="{$vo.areano}"></td>
+                                    <td>{$vo.areano}</td>
+                                    <td>{$vo.areaname}</td>
+                                    <td>{$vo.parentno}</td>
+                                    <td>{$vo.areacode}</td>
+                                    <td>{$vo.arealevel}</td>
+                                    <td>{$vo.typename}</td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+                <footer class="panel-footer">
+                    <div class="row">
+                        <div class="col-sm-4 hidden-xs"></div>
+                        <div class="col-sm-5 text-center-xs" id="page">
+                            <ul class="pagination pagination-sm m-t-none m-b-none">
+                                {$page}
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 text-right text-center-xs"></div>
+                    </div>
+                </footer>
+            </section>
+        </section>
+        <script src="__PUBLIC__/Admin/js/area/index.js"></script>
+</block>

@@ -1,0 +1,126 @@
+[ 2016-12-10T13:56:42+08:00 ] ::1 /excavator/Admin/buttons
+ERR: 无法加载控制器:Buttons
+
+[ 2016-12-10T14:53:27+08:00 ] ::1 /excavator/Admin/Index/table-static.html
+ERR: 非法操作:table-static
+
+[ 2016-12-10T15:05:40+08:00 ] ::1 /excavator/Admin/Index/js/data/datatable.json?_=1481353540535
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:js
+
+[ 2016-12-10T15:07:25+08:00 ] ::1 /excavator/Admin/Index/js/data/datatable.json?_=1481353645648
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:26+08:00 ] ::1 /excavator/Admin/Index/js/libs/underscore-min.js
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:26+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/fuelux.js
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:26+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/fuelux.css
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:26+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/demo.datagrid.js
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:26+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/fuelux.js
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:26+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/demo.datagrid.js
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:38+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/fuelux.css
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:38+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/demo.datagrid.js
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:38+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/fuelux.js
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:38+08:00 ] ::1 /excavator/Admin/Index/js/libs/underscore-min.js
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:38+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/fuelux.js
+ERR: 非法操作:js
+
+[ 2016-12-10T15:13:38+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/demo.datagrid.js
+ERR: 非法操作:js
+
+[ 2016-12-10T15:14:03+08:00 ] ::1 /excavator/Admin/Index/js/fuelux/fuelux.css
+ERR: 非法操作:js
+
+[ 2016-12-10T15:14:39+08:00 ] ::1 /excavator/Admin/Index/js/data/datagrid.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2016-12-10T15:14:42+08:00 ] ::1 /excavator/Admin/Index/js/data/datagrid.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:js
+
+[ 2016-12-10T15:14:44+08:00 ] ::1 /excavator/Admin/Index/js/data/datagrid.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:js
+
+[ 2016-12-10T15:14:45+08:00 ] ::1 /excavator/Admin/Index/js/data/datagrid.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2016-12-10T15:14:55+08:00 ] ::1 /excavator/Admin/Index/js/data/datagrid.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:js
+
+[ 2016-12-10T15:39:57+08:00 ] ::1 /excavator/Admin/Index/js/data/datatable.json?_=1481355597709
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2016-12-10T15:41:15+08:00 ] ::1 /excavator/Admin/Index/js/data/datagrid.json
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2016-12-10T15:43:20+08:00 ] ::1 /excavator/Admin/Index/js/markdown/epiceditor.css
+ERR: 非法操作:js
+
+[ 2016-12-10T15:43:20+08:00 ] ::1 /excavator/Admin/Index/js/markdown/epic-light.css
+ERR: 非法操作:js
+
+[ 2016-12-10T15:43:20+08:00 ] ::1 /excavator/Admin/Index/js/markdown/bartik.css
+ERR: 非法操作:js
+
+[ 2016-12-10T15:51:37+08:00 ] ::1 /excavator/Admin/Index/js/markdown/epiceditor.css
+ERR: 非法操作:js
+
+[ 2016-12-10T15:51:37+08:00 ] ::1 /excavator/Admin/Index/js/markdown/epic-light.css
+ERR: 非法操作:js
+
+[ 2016-12-10T15:51:37+08:00 ] ::1 /excavator/Admin/Index/js/markdown/bartik.css
+ERR: 非法操作:js
+
+[ 2016-12-10T15:54:25+08:00 ] ::1 /excavator/Admin/Index/layout-c.html
+ERR: 非法操作:layout-c
+
+[ 2016-12-10T15:54:40+08:00 ] ::1 /excavator/Admin/Index/notebook.html
+ERR: 非法操作:notebook
+
+[ 2016-12-10T16:43:31+08:00 ] ::1 /excavator/Admin/Index/buttons.html
+ERR: 非法操作:buttons
+

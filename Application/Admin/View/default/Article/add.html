@@ -1,0 +1,144 @@
+<extend name="Public/base" />
+<block name="title"><title>添加文章-文章管理</title></block>
+<block name="content">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/js/fuelux/fuelux.css" type="text/css" cache="false" />
+    <!--kindeditor-->
+    <script charset="utf-8" src="__PLUGINS__/kindeditor/kindeditor-min.js"></script>
+    <script charset="utf-8" src="__PLUGINS__/kindeditor/lang/zh_CN.js"></script>
+    <!-- jQuery -->
+    <script src="__PUBLIC__/Admin/js/jquery.min.js"></script>
+    <!-- jQuery.form.js -->
+    <script src="__PUBLIC__/Admin/js/jquery.form.js"></script>
+
+    <section id="content">
+        <section class="vbox">
+            <section class="scrollable padder">
+                <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+                    <li><a href="__MODULE__/Index/index.html"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="__CONTROLLER__/index">文章列表</a></li>
+                    <li><a href="__CONTROLLER__/add">添加文章</a></li>
+                </ul>
+                <div class="m-b-md">
+                    <h3 class="m-b-none">添加文章</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <section class="panel panel-default">
+                            <header class="panel-heading font-bold">添加文章</header>
+                            <div class="panel-body">
+                                <form class="bs-example form-horizontal" id="ajaxForm" action="__CONTROLLER__/add">
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">文章标题</label>
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control" name="title" placeholder="Title">
+                                            <span class="help-block m-b-none">文章标题不能小于2位.</span>
+                                        </div>
+                                        <div class="col-lg-4"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">文章标签</label>
+                                        <div class="col-lg-6">
+                                            <input type="text" class="form-control" name="tags" placeholder="Tags">
+                                            <span class="help-block m-b-none">多个标签用逗号隔开.</span>
+                                        </div>
+                                        <div class="col-lg-4"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">文章类型</label>
+                                        <div class="col-lg-4">
+                                            <select name="type" class="form-control m-b">
+                                                <volist name="typelist" id="vo">
+                                                    <option value="{$vo.id}">{$vo.name}</option>
+                                                </volist>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">文章作者</label>
+                                        <div class="col-lg-4">
+                                            <input type="text" class="form-control" name="author" placeholder="Author">
+                                        </div>
+                                        <div class="col-lg-6"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">文章来源</label>
+                                        <div class="col-lg-4">
+                                            <input type="text" class="form-control" name="source" placeholder="Source">
+                                        </div>
+                                        <div class="col-lg-6"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">缩略图</label>
+                                        <div class="col-sm-4">
+                                            <input type="file" name="pic" class="filestyle" data-icon="false" data-classButton="btn btn-default" data-classInput="form-control inline input-s">
+                                        </div>
+                                        <div class="col-sm-6"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">文章描述</label>
+                                        <div class="col-sm-10">
+                                            <textarea class="form-control" name="descript" rows="5" data-minwords="6" data-required="true" placeholder="Type the descript"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">文章详情</label>
+                                        <div class="col-sm-10">
+                                            <textarea class="form-control" name="content" id="editor"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">是否推荐</label>
+                                        <div class="col-sm-10">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <!-- radio -->
+                                                    <div class="radio-inline pad-lf-none">
+                                                        <label class="radio-custom margin-lf-none">
+                                                            <input type="radio" name="isrec" value="1" checked="checked">
+                                                            <i class="fa fa-circle-o"></i> 是 </label>
+                                                    </div>
+                                                    <div class="radio-inline pad-lf-none">
+                                                        <label class="radio-custom margin-lf-none">
+                                                            <input type="radio" name="isrec" value="0">
+                                                            <i class="fa fa-circle-o"></i> 否 </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-lg-offset-2 col-lg-10">
+                                            <button type="submit" class="btn btn-sm btn-default">添加文章</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
+    </section>
+    <script type="text/javascript">
+        KindEditor.ready(function(K){
+            var opts={
+                uploadJson : '__PLUGINS__/kindeditor/php/upload_json.php',
+                fileManagerJson : '__PLUGINS__/kindeditor/php/file_manager_json.php',
+                allowFileManager : true,
+                height : 'auto',
+                minHeight: '200',
+                width : '100%',
+                afterBlur:function(){this.sync();}
+            };
+            var editor = K.create('textarea[name="content"]', opts);
+        });
+    </script>
+    <!-- fuelux -->
+    <script src="__PUBLIC__/Admin/js/fuelux/fuelux.js" cache="false"></script>
+    <!-- Bootstrap -->
+    <script src="__PUBLIC__/Admin/js/file-input/bootstrap-filestyle.min.js" cache="false"></script>
+    <script src="__PUBLIC__/Admin/js/manage/index.js"></script>
+</block>
+
