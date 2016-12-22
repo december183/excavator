@@ -16,7 +16,7 @@ class WithdrawController extends BaseController{
                         $this->apiReturn(404,'批量设置失败');
                     }
                 }
-                $this->apiReturn(200,'批量设置成功',array('url'=>'index'));
+                $this->apiReturn(200,'批量设置成功',array('url'=>'Admin/Withdraw/index'));
             }
         }else{
             $total=$this->withdraw->count();

@@ -4,3 +4,18 @@ ERR: 无法加载控制器:Public
 [ 2016-12-22T14:57:04+08:00 ] ::1 /excavator/Public/Admin/fonts/glyphicons-halflings-regular.ttf
 ERR: 无法加载控制器:Public
 
+[ 2016-12-22T16:39:14+08:00 ] ::1 /excavator/Public/Admin/fonts/glyphicons-halflings-regular.woff
+ERR: 无法加载控制器:Public
+
+[ 2016-12-22T16:39:15+08:00 ] ::1 /excavator/Public/Admin/fonts/glyphicons-halflings-regular.ttf
+ERR: 无法加载控制器:Public
+
+[ 2016-12-22T16:41:57+08:00 ] ::1 /excavator/Public/Admin/fonts/glyphicons-halflings-regular.woff
+ERR: 无法加载控制器:Public
+
+[ 2016-12-22T16:41:57+08:00 ] ::1 /excavator/Public/Admin/fonts/glyphicons-halflings-regular.ttf
+ERR: 无法加载控制器:Public
+
+[ 2016-12-22T16:55:28+08:00 ] ::1 /excavator/Login/index
+ERR: 无法加载控制器:Login
+

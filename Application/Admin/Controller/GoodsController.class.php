@@ -17,7 +17,7 @@ class GoodsController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->goods->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Goods/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -27,21 +27,21 @@ class GoodsController extends BaseController{
                         $this->apiReturn(404,'批量审核失败');
                     }
                 }
-                $this->apiReturn(200,'批量审核成功',array('url'=>'index'));
+                $this->apiReturn(200,'批量审核成功',array('url'=>'Admin/Goods/index'));
             }elseif($data['action'] == 3){
                 foreach($data['ids'] as $id){
                     if($this->goods->where(array('id'=>$id))->setField('isup',1) < 1){
                         $this->apiReturn(404,'批量上架失败');
                     }
                 }
-                $this->apiReturn(200,'批量上架成功',array('url'=>'index'));
+                $this->apiReturn(200,'批量上架成功',array('url'=>'Admin/Goods/index'));
             }elseif($data['action'] == 4){
                 foreach($data['ids'] as $id){
                     if($this->goods->where(array('id'=>$id))->setField('isrec',1) < 1){
                         $this->apiReturn(404,'批量推荐失败');
                     }
                 }
-                $this->apiReturn(200,'批量推荐成功',array('url'=>'index'));
+                $this->apiReturn(200,'批量推荐成功',array('url'=>'Admin/Goods/index'));
             }
         }else{
             $total=$this->goods->where()->count();

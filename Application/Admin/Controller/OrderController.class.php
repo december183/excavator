@@ -15,7 +15,7 @@ class OrderController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->order->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Order/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }

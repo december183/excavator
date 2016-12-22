@@ -17,7 +17,7 @@ class AttrController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->attr->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Attr/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -39,7 +39,7 @@ class AttrController extends BaseController{
             $data['cateids']=implode(',',$data['ids']);
             if($this->attr->create($data)){
                 if($this->attr->add()){
-                    $this->apiReturn(200,'新增属性成功',array('url'=>'index'));
+                    $this->apiReturn(200,'新增属性成功',array('url'=>'Admin/Attr/index'));
                 }else{
                     $this->apiReturn(404,'新增属性失败');
                 }
@@ -63,7 +63,7 @@ class AttrController extends BaseController{
             }
             if($this->attr->create($data)){
                 if($this->attr->save()){
-                    $this->apiReturn(200,'修改属性成功',array('url'=>'index'));
+                    $this->apiReturn(200,'修改属性成功',array('url'=>'Admin/Attr/index'));
                 }else{
                     $this->apiReturn(404,'修改属性失败');
                 }

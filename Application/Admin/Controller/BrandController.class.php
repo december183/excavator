@@ -42,7 +42,7 @@ class BrandController extends BaseController{
             }
             if($this->brand->create($data)){
                 if($this->brand->add()){
-                    $this->apiReturn(200,'新增品牌成功',array('url'=>'index'));
+                    $this->apiReturn(200,'新增品牌成功',array('url'=>'Admin/Brand/index'));
                 }else{
                     $this->apiReturn(404,'新增品牌失败');
                 }
@@ -69,7 +69,7 @@ class BrandController extends BaseController{
             }
             if($this->brand->create($data)){
                 if($this->brand->save()){
-                    $this->apiReturn(200,'修改品牌成功');
+                    $this->apiReturn(200,'修改品牌成功',array('url'=>'Admin/Brand/index'));
                 }else{
                     $this->apiReturn(404,'修改品牌失败');
                 }

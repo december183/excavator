@@ -13,7 +13,7 @@ class AdverTypeController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->type->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/AdverType/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -23,7 +23,7 @@ class AdverTypeController extends BaseController{
                         $this->apiReturn(404,'批量设置失败');
                     }
                 }
-                $this->apiReturn(200,'批量设置成功',array('url'=>'index'));
+                $this->apiReturn(200,'批量设置成功',array('url'=>'Admin/AdverType/index'));
             }
         }else{
             $typelist=$this->type->where(array('status'=>1))->select();
@@ -36,7 +36,7 @@ class AdverTypeController extends BaseController{
             $data=I('param.');
             if($this->type->create($data)){
                 if($this->type->add()){
-                    $this->apiReturn(200,'新增广告类型成功',array('url'=>'index'));
+                    $this->apiReturn(200,'新增广告类型成功',array('url'=>'Admin/AdverType/index'));
                 }else{
                     $this->apiReturn(404,'新增广告类型失败');
                 }
@@ -55,7 +55,7 @@ class AdverTypeController extends BaseController{
             }
             if($this->type->create($data)){
                 if($this->type->save()){
-                    $this->apiReturn(200,'修改广告类型成功',array('url'=>'index'));
+                    $this->apiReturn(200,'修改广告类型成功',array('url'=>'Admin/AdverType/index'));
                 }else{
                     $this->apiReturn(404,'修改广告类型失败');
                 }

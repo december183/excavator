@@ -7,7 +7,8 @@ class BaseController extends Controller{
     protected $auth=null;
     public function _initialize(){
         if(!session('user')){
-            $this->redirect('Login/index');
+            echo '<script type="text/javascript">window.location.href="Admin/Login/index"</script>';
+            exit();
         }
         $this->manage=D('Manage');
         $this->group=D('Group');
@@ -27,7 +28,8 @@ class BaseController extends Controller{
         session('userAuth',null);
         session('userItem',null);
         session_destroy();
-        $this->redirect('Login/index');
+        echo '<script type="text/javascript">window.location.href="Admin/Login/index"</script>';
+        exit();
     }
 
     /**

@@ -16,7 +16,7 @@ class CategoryController extends BaseController{
                 if($this->cate->delete($ids)){
                     $memcache=self::getMemcache();
                     $memcache->clear();
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Category/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -28,7 +28,7 @@ class CategoryController extends BaseController{
                 }
                 $memcache=self::getMemObj();
                 $memcache->clear();
-                $this->apiReturn(200,'批量审核成功',array('url'=>'index'));
+                $this->apiReturn(200,'批量审核成功',array('url'=>'Admin/Category/index'));
             }
         }else{
             $catelist=$this->cate->getSortCateList();
@@ -48,7 +48,7 @@ class CategoryController extends BaseController{
                 if($this->cate->add()){
                     $memcache=self::getMemcache();
                     $memcache->clear();
-                    $this->apiReturn(200,'添加商品分类成功',array('url'=>'index'));
+                    $this->apiReturn(200,'添加商品分类成功',array('url'=>'Admin/Category/index'));
                 }else{
                     $this->apiReturn(404,'添加商品分类失败');
                 }
@@ -79,7 +79,7 @@ class CategoryController extends BaseController{
                 if($this->cate->save()){
                     $memcache=self::getMemcache();
                     $memcache->clear();
-                    $this->apiReturn(200,'修改商品分类成功',array('url'=>'index'));
+                    $this->apiReturn(200,'修改商品分类成功',array('url'=>'Admin/Category/index'));
                 }else{
                     $this->apiReturn(404,'修改商品分类失败');
                 }

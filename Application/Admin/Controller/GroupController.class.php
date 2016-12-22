@@ -8,7 +8,7 @@ class GroupController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->group->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Group/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -18,7 +18,7 @@ class GroupController extends BaseController{
                         $this->apiReturn(404,'批量审核失败');
                     }
                 }
-                $this->apiReturn(200,'批量审核成功',array('url'=>'index'));
+                $this->apiReturn(200,'批量审核成功',array('url'=>'Admin/Group/index'));
             }
         }else{
             $total=$this->group->count();
@@ -38,7 +38,7 @@ class GroupController extends BaseController{
             }
             if($this->group->create($data)){
                 if($this->group->add()){
-                    $this->apiReturn(200,'添加管理组成功',array('url'=>'index'));
+                    $this->apiReturn(200,'添加管理组成功',array('url'=>'Admin/Group/index'));
                 }else{
                     $this->apiReturn(404,'添加管理组失败');
                 }
@@ -62,7 +62,7 @@ class GroupController extends BaseController{
             }
             if($this->group->create($data)){
                 if($this->group->save()){
-                    $this->apiReturn(200,'修改管理组成功',array('url'=>'index'));
+                    $this->apiReturn(200,'修改管理组成功',array('url'=>'Admin/Group/index'));
                 }else{
                     $this->apiReturn(404,'修改管理组失败');
                 }

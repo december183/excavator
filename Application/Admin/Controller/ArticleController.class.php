@@ -15,7 +15,7 @@ class ArticleController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->article->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Article/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -25,7 +25,7 @@ class ArticleController extends BaseController{
                         $this->apiReturn(404,'批量推荐失败');
                     }
                 }
-                $this->apiReturn(200,'批量推荐成功',array('url'=>'index'));
+                $this->apiReturn(200,'批量推荐成功',array('url'=>'Admin/Article/index'));
             }
         }else{
             $typelist=$this->type->field('id,name')->where(array('status'=>1))->select();
@@ -49,7 +49,7 @@ class ArticleController extends BaseController{
             }
             if($this->article->create($data)){
                 if($this->article->add()){
-                    $this->apiReturn(200,'添加文章成功',array('url'=>'index'));
+                    $this->apiReturn(200,'添加文章成功',array('url'=>'Admin/Article/index'));
                 }else{
                     $this->apiReturn(404,'添加文章失败');
                 }
@@ -75,7 +75,7 @@ class ArticleController extends BaseController{
             }
             if($this->article->create($data)){
                 if($this->article->save()){
-                    $this->apiReturn(200,'修改文章成功',array('url'=>'index'));
+                    $this->apiReturn(200,'修改文章成功',array('url'=>'Admin/Article/index'));
                 }else{
                     $this->apiReturn(404,'修改文章失败');
                 }

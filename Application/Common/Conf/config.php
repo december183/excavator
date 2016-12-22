@@ -36,7 +36,7 @@ return array(
 
     ),
     //URL模式设置
-    'URL_MODEL'=>1,
+    'URL_MODEL'=>3,
 
     //SESSION设置
     'SESSION_OPTIONS' => array(

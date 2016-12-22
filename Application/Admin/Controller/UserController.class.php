@@ -13,7 +13,7 @@ class UserController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->user->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/User/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -23,7 +23,7 @@ class UserController extends BaseController{
                         $this->apiReturn(404,'批量设置失败');
                     }
                 }
-                $this->apiReturn(200,'批量设置成功',array('url'=>'index'));
+                $this->apiReturn(200,'批量设置成功',array('url'=>'Admin/User/index'));
             }
         }else{
             $total=$this->user->count();
