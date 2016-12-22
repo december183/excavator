@@ -269,7 +269,7 @@
                         <div class="col-sm-5 hidden-xs"></div>
                         <div class="col-sm-4 text-center-xs" id="page">
                             <ul class="pagination pagination-sm m-t-none m-b-none">
-                                <?php echo ($page); ?>
+
                             </ul>
                         </div>
                         <div class="col-sm-3 text-right text-center-xs"></div>
