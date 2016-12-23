@@ -23,7 +23,7 @@ $(function(){
             return;
         }
         $.ajax({
-            url:'ajaxSearch',
+            url:'Admin/Withdraw/ajaxSearch',
             data:{keywords:keywords,starttime:starttime,endtime:endtime},
             type:'get',
             dataType:'json',
@@ -39,7 +39,7 @@ function ajaxPage(obj){
     var starttime=$('#starttime').val();
     var endtime=$('#endtime').val();
     $.ajax({
-        url:'ajaxSearch',
+        url:'Admin/Withdraw/ajaxSearch',
         data:{keywords:keywords,starttime:starttime,endtime:endtime,p:page},
         type:'get',
         dataType:'json',
@@ -84,7 +84,7 @@ function getData(jsonObj){
 function setStatus(id,obj){
     var obj=$(obj);
     $.ajax({
-        url:'setStatus',
+        url:'Admin/Withdraw/setStatus',
         data:{id:id},
         type:'post',
         dataType:'json',

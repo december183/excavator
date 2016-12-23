@@ -59,7 +59,7 @@ $(function(){
             return;
         }
         $.ajax({
-            url:'ajaxSearch',
+            url:'Admin/Attr/ajaxSearch',
             data:{keywords:keywords},
             type:'get',
             dataType:'json',
@@ -73,7 +73,7 @@ function ajaxPage(obj){
     var page=$(obj).attr('data-page');
     var keywords=$('#keywords').val();
     $.ajax({
-        url:'ajaxSearch',
+        url:'Admin/Attr/ajaxSearch',
         data:{keywords:keywords,p:page},
         type:'get',
         dataType:'json',
@@ -94,7 +94,7 @@ function getData(jsonObj){
             html+='<td>'+info.catename+'</td>';
             html+='<td>'+info.typename+'</td>';
             html+='<td>'+info.value+'</td>';
-            html+='<td><a href="edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
+            html+='<td><a href="Admin/Attr/edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
             html+='</tr>';
         }
         $('#table-info>tbody').html(html);
@@ -109,7 +109,7 @@ function ajaxDel(id,obj){
     }
     var obj=$(obj);
     $.ajax({
-        url:'del',
+        url:'Admin/Attr/del',
         data:{id:id},
         type:'post',
         dataType:'json',

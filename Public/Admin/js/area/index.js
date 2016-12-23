@@ -7,7 +7,7 @@ $(function(){
             return;
         }
         $.ajax({
-            url:'ajaxSearch',
+            url:'Admin/Area/ajaxSearch',
             data:{keywords:keywords},
             type:'get',
             dataType:'json',
@@ -21,7 +21,7 @@ function ajaxPage(obj){
     var page=$(obj).attr('data-page');
     var keywords=$('#keywords').val();
     $.ajax({
-        url:'ajaxSearch',
+        url:'Admin/Area/ajaxSearch',
         data:{keywords:keywords,p:page},
         type:'get',
         dataType:'json',

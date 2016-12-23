@@ -22,7 +22,7 @@ $(function(){
             return;
         }
         $.ajax({
-            url:'ajaxSearch',
+            url:'Admin/User/ajaxSearch',
             data:{keywords:keywords,type:type},
             type:'get',
             dataType:'json',
@@ -37,7 +37,7 @@ function ajaxPage(obj){
     var keywords=$('#keywords').val();
     var type=$('#typeid').val();
     $.ajax({
-        url:'ajaxSearch',
+        url:'Admin/User/ajaxSearch',
         data:{keywords:keywords,type:type,p:page},
         type:'get',
         dataType:'json',
@@ -83,7 +83,7 @@ function ajaxDel(id,obj){
     }
     var obj=$(obj);
     $.ajax({
-        url:'del',
+        url:'Admin/User/del',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -99,7 +99,7 @@ function ajaxDel(id,obj){
 function setStatus(id,obj){
     var obj=$(obj);
     $.ajax({
-        url:'setStatus',
+        url:'Admin/User/setStatus',
         data:{id:id},
         type:'post',
         dataType:'json',

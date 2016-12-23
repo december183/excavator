@@ -32,7 +32,7 @@ function ajaxDel(id,obj){
     }
     var obj=$(obj);
     $.ajax({
-        url:'del',
+        url:'Admin/Auth/del',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -49,7 +49,7 @@ function ajaxDel(id,obj){
 function setStatus(id,obj){
     var obj=$(obj);
     $.ajax({
-        url:'setStatus',
+        url:'Admin/Auth/setStatus',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -65,7 +65,7 @@ function setStatus(id,obj){
 function setAuth(id,obj){
     var obj=$(obj);
     $.ajax({
-        url:'setAuth',
+        url:'Admin/Auth/setAuth',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -82,13 +82,14 @@ function setSort(id,obj){
     var obj=$(obj);
     var sort=obj.val();
     $.ajax({
-        url:'setSort',
+        url:'Admin/Auth/setSort',
         data:{id:id,sort:sort},
         type:'post',
         dataType:'json',
         success:function(res){
             // alert(res.message);
             if(res.status == 200){
+                alert(res.message);
                 obj.val(sort);
             }
         }

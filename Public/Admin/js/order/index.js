@@ -23,7 +23,7 @@ $(function(){
             return;
         }
         $.ajax({
-            url:'ajaxSearch',
+            url:'Admin/Order/ajaxSearch',
             data:{keywords:keywords,starttime:starttime,endtime:endtime},
             type:'get',
             dataType:'json',
@@ -39,7 +39,7 @@ function ajaxPage(obj){
     var starttime=$('#starttime').val();
     var endtime=$('#endtime').val();
     $.ajax({
-        url:'ajaxSearch',
+        url:'Admin/Order/ajaxSearch',
         data:{keywords:keywords,starttime:starttime,endtime:endtime,p:page},
         type:'get',
         dataType:'json',
@@ -85,7 +85,7 @@ function getData(jsonObj){
                     html+='<td rowspan="'+info.count+'">'+method+'</td>';
                     html+='<td rowspan="'+info.count+'">'+format(info.date)+'</td>';
                     html+='<td rowspan="'+info.count+'">'+status+'</td>';
-                    html+='<td rowspan="'+info.count+'"><a href="detail/id/'+info.id+'" data-toggle="class" title="查看详情"><i class="fa fa-eyes text-primary text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
+                    html+='<td rowspan="'+info.count+'"><a href="Admin/Order/detail/id/'+info.id+'" data-toggle="class" title="查看详情"><i class="fa fa-eyes text-primary text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
                     html+='</tr>';
                 }else{
                     html+='<tr>';
@@ -109,7 +109,7 @@ function ajaxDel(id,obj){
     }
     var obj=$(obj);
     $.ajax({
-        url:'del',
+        url:'Admin/Order/del',
         data:{id:id},
         type:'post',
         dataType:'json',

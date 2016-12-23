@@ -32,7 +32,7 @@ function ajaxDel(id,obj){
     }
     var obj=$(obj);
     $.ajax({
-        url:'del',
+        url:'Admin/Category/del',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -49,7 +49,7 @@ function ajaxDel(id,obj){
 function setStatus(id,obj){
     var obj=$(obj);
     $.ajax({
-        url:'setStatus',
+        url:'Admin/Category/setStatus',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -66,7 +66,7 @@ function setSort(id,obj){
     var obj=$(obj);
     var sort=obj.val();
     $.ajax({
-        url:'setSort',
+        url:'Admin/Category/setSort',
         data:{id:id,sort:sort},
         type:'post',
         dataType:'json',

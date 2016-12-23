@@ -19,7 +19,7 @@ $(function(){
         var cateid=$('#cateid').val();
         var type=$('#typeid').val();
         $.ajax({
-            url:'ajaxSearch',
+            url:'Admin/Goods/ajaxSearch',
             data:{keywords:keywords,cateid:cateid,type:type},
             type:'get',
             dataType:'json',
@@ -35,7 +35,7 @@ function ajaxPage(obj){
     var cateid=$('#cateid').val();
     var type=$('#typeid').val();
     $.ajax({
-        url:'ajaxSearch',
+        url:'Admin/Goods/ajaxSearch',
         data:{keywords:keywords,cateid:cateid,type:type,p:page},
         type:'get',
         dataType:'json',
@@ -95,7 +95,7 @@ function getData(jsonObj){
             html+='<td>'+isup+'</td>';
             html+='<td>'+isrec+'</td>';
             html+='<td>'+status+'</td>';
-            html+='<td><a href="edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
+            html+='<td><a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
             html+='</tr>';
         }
         $('#table-info>tbody').html(html);
@@ -110,7 +110,7 @@ function ajaxDel(id,obj){
     }
     var obj=$(obj);
     $.ajax({
-        url:'del',
+        url:'Admin/Goods/del',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -126,7 +126,7 @@ function ajaxDel(id,obj){
 function setStatus(id,obj){
     var obj=$(obj);
     $.ajax({
-        url:'setStatus',
+        url:'Admin/Goods/setStatus',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -142,7 +142,7 @@ function setStatus(id,obj){
 function setUp(id,obj){
     var obj=$(obj);
     $.ajax({
-        url:'setUp',
+        url:'Admin/Goods/setUp',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -158,7 +158,7 @@ function setUp(id,obj){
 function setRec(id,obj){
     var obj=$(obj);
     $.ajax({
-        url:'setRec',
+        url:'Admin/Goods/setRec',
         data:{id:id},
         type:'post',
         dataType:'json',

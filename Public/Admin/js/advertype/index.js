@@ -19,7 +19,7 @@ function ajaxDel(id,obj){
     }
     var obj=$(obj);
     $.ajax({
-        url:'del',
+        url:'Admin/AdverType/del',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -35,7 +35,7 @@ function ajaxDel(id,obj){
 function setStatus(id,obj){
     var obj=$(obj);
     $.ajax({
-        url:'setStatus',
+        url:'Admin/AdverType/setStatus',
         data:{id:id},
         type:'post',
         dataType:'json',

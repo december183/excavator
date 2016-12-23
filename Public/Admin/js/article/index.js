@@ -18,7 +18,7 @@ $(function(){
         var keywords=$('#keywords').val();
         var type=$('#typeid').val();
         $.ajax({
-            url:'ajaxSearch',
+            url:'Admin/Article/ajaxSearch',
             data:{keywords:keywords,type:type},
             type:'get',
             dataType:'json',
@@ -33,7 +33,7 @@ function ajaxPage(obj){
     var keywords=$('#keywords').val();
     var type=$('#typeid').val();
     $.ajax({
-        url:'ajaxSearch',
+        url:'Admin/Article/ajaxSearch',
         data:{keywords:keywords,type:type,p:page},
         type:'get',
         dataType:'json',
@@ -60,7 +60,7 @@ function getData(jsonObj){
             html+='<td>'+info.tags+'</td>';
             html+='<td>'+info.descript+'</td>';
             html+='<td>'+isrec+'</td>';
-            html+='<td><a href="edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
+            html+='<td><a href="Admin/Article/edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
             html+='</tr>';
         }
         $('#table-info>tbody').html(html);
@@ -75,7 +75,7 @@ function ajaxDel(id,obj){
     }
     var obj=$(obj);
     $.ajax({
-        url:'del',
+        url:'Admin/Article/del',
         data:{id:id},
         type:'post',
         dataType:'json',
@@ -91,7 +91,7 @@ function ajaxDel(id,obj){
 function setRec(id,obj){
     var obj=$(obj);
     $.ajax({
-        url:'setRec',
+        url:'Admin/Article/setRec',
         data:{id:id},
         type:'post',
         dataType:'json',
