@@ -85,7 +85,7 @@ function getData(jsonObj){
                     html+='<td rowspan="'+info.count+'">'+method+'</td>';
                     html+='<td rowspan="'+info.count+'">'+format(info.date)+'</td>';
                     html+='<td rowspan="'+info.count+'">'+status+'</td>';
-                    html+='<td rowspan="'+info.count+'"><a href="Admin/Order/detail/id/'+info.id+'" data-toggle="class" title="查看详情"><i class="fa fa-eyes text-primary text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
+                    html+='<td rowspan="'+info.count+'"><a href="Admin/Order/detail/id/'+info.id+'" data-toggle="class" title="查看详情"><i class="fa fa-eyes text-primary text"></i></a>　<a onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
                     html+='</tr>';
                 }else{
                     html+='<tr>';

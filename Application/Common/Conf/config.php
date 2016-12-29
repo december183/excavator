@@ -43,6 +43,9 @@ return array(
         'use_only_cookies'=>0,
         'use_trans_sid'=>1),
 
+    //COOKIE前缀设置
+    'COOKIE_PREFIX'=>'gms_',
+
     //CACHE缓存设置
     'DATA_CACHE_TYPE' => 'Memcache',
     'MEMCACHE_HOST' => '127.0.0.1',

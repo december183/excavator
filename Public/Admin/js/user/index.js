@@ -68,7 +68,7 @@ function getData(jsonObj){
             html+='<td>'+info.wechat+'</td>';
             html+='<td>'+info.alipay+'</td>';
             html+='<td>'+status+'</td>';
-            html+='<td><a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
+            html+='<td><a onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
             html+='</tr>';
         }
         $('#table-info>tbody').html(html);

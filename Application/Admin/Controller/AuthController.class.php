@@ -9,7 +9,7 @@ class AuthController extends BaseController{
                 $idsArr=$this->auth->getDelIds($data['ids']);
                 $ids=implode(',',$idsArr);
                 if($this->auth->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Auth/index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'index.php?s=Admin/Auth/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -19,14 +19,14 @@ class AuthController extends BaseController{
                         $this->apiReturn(404,'设置显示失败');
                     }
                 }
-                $this->apiReturn(200,'设置显示成功',array('url'=>'Admin/Auth/index'));
+                $this->apiReturn(200,'设置显示成功',array('url'=>'index.php?s=Admin/Auth/index'));
             }elseif($data['action'] == 3){
                 foreach($data['ids'] as $id){
                     if($this->auth->where(array('id'=>$id))->setField('isauth',1) < 1){
                         $this->apiReturn(404,'设置权限失败');
                     }
                 }
-                $this->apiReturn(200,'设置权限成功',array('url'=>'Admin/Auth/index'));
+                $this->apiReturn(200,'设置权限成功',array('url'=>'index.php?s=Admin/Auth/index'));
             }
         }else{
             $authlist=$this->auth->getSortItemList();
@@ -46,7 +46,7 @@ class AuthController extends BaseController{
                         session('userAuth',null);
                         session('userItem',null);
                     }
-                    $this->apiReturn(200,'添加菜单成功',array('url'=>'Admin/Auth/index'));
+                    $this->apiReturn(200,'添加菜单成功',array('url'=>'index.php?s=Admin/Auth/index'));
                 }else{
                     $this->apiReturn(404,'添加菜单失败');
                 }
@@ -69,7 +69,7 @@ class AuthController extends BaseController{
                 if($this->auth->save()){
                     session('userAuth',null);
                     session('userItem',null);
-                    $this->apiReturn(200,'修改菜单成功',array('url'=>'Admin/Auth/index'));
+                    $this->apiReturn(200,'修改菜单成功',array('url'=>'index.php?s=Admin/Auth/index'));
                 }else{
                     $this->apiReturn(404,'修改菜单失败');
                 }

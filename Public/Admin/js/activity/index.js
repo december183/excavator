@@ -75,7 +75,7 @@ function getData(jsonObj){
             html+='<td>'+info.endtime+'</td>';
             html+='<td>'+status+'</td>';
             html+='<td>'+isrec+'</td>';
-            html+='<td><a href="Admin/Activity/edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
+            html+='<td><a href="index.php?s=Admin/Activity/edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
             html+='</tr>';
         }
         $('#table-info>tbody').html(html);

@@ -39,7 +39,7 @@
             </section>
         </li>
         <li>
-            <div class="m-t m-l"> <a href="/excavator/index.php/Admin/Page/price.html" class="dropdown-toggle btn btn-xs btn-primary" title="Upgrade"><i class="fa fa-long-arrow-up"></i></a> </div>
+            <div class="m-t m-l"> <a href="/excavator/index.php?s=/Admin/Page/price.html" class="dropdown-toggle btn btn-xs btn-primary" title="Upgrade"><i class="fa fa-long-arrow-up"></i></a> </div>
         </li>
     </ul>
     <ul class="nav navbar-nav navbar-right hidden-xs nav-user">
@@ -73,11 +73,11 @@
             <ul class="dropdown-menu animated fadeInRight">
                 <span class="arrow top"></span>
                 <li> <a href="#">Settings</a> </li>
-                <li> <a href="/excavator/index.php/Admin/Page/profile.html">Profile</a> </li>
+                <li> <a href="/excavator/index.php?s=/Admin/Page/profile.html">Profile</a> </li>
                 <li> <a href="#"> <span class="badge bg-danger pull-right">3</span> Notifications </a> </li>
-                <li> <a href="/excavator/index.php/Admin/Page/docs.html">Help</a> </li>
+                <li> <a href="/excavator/index.php?s=/Admin/Page/docs.html">Help</a> </li>
                 <li class="divider"></li>
-                <li> <a href="/excavator/index.php/Admin/Attr/logout" data-toggle="ajaxModal" >Logout</a> </li>
+                <li> <a href="/excavator/index.php?s=/Admin/Attr/logout" data-toggle="ajaxModal" >Logout</a> </li>
             </ul>
         </li>
     </ul>
@@ -105,7 +105,7 @@
             <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="5px" data-color="#333333"> <!-- nav -->
                 <nav class="nav-primary hidden-xs">
                     <ul class="nav">
-                        <li > <a href="/excavator/index.php/Admin/Index/index.html" class="active"> <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>Workset</span> </a> </li>
+                        <li > <a href="/excavator/index.php?s=/Admin/Index/index.html" class="active"> <i class="fa fa-dashboard icon"> <b class="bg-danger"></b> </i> <span>Workset</span> </a> </li>
                         <li > <a href="#layout" > <i class="fa fa-columns icon"> <b class="bg-warning"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>Layouts</span> </a>
                             <ul class="nav lt">
                                 <li > <a href="layout-c.html" > <i class="fa fa-angle-right"></i> <span>Color option</span> </a> </li>
@@ -115,53 +115,53 @@
                         </li>
                         <li > <a href="#uikit" > <i class="fa fa-flask icon"> <b class="bg-success"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>UI kit</span> </a>
                             <ul class="nav lt">
-                                <li > <a href="/excavator/index.php/Admin/Uikit/buttons.html" > <i class="fa fa-angle-right"></i> <span>Buttons</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Uikit/icons.html" > <b class="badge bg-info pull-right">369</b> <i class="fa fa-angle-right"></i> <span>Icons</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Uikit/grid.html" > <i class="fa fa-angle-right"></i> <span>Grid</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Uikit/widgets.html" > <b class="badge pull-right">8</b> <i class="fa fa-angle-right"></i> <span>Widgets</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Uikit/components.html" > <i class="fa fa-angle-right"></i> <span>Components</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Uikit/lists.html" > <i class="fa fa-angle-right"></i> <span>List group</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Uikit/buttons.html" > <i class="fa fa-angle-right"></i> <span>Buttons</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Uikit/icons.html" > <b class="badge bg-info pull-right">369</b> <i class="fa fa-angle-right"></i> <span>Icons</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Uikit/grid.html" > <i class="fa fa-angle-right"></i> <span>Grid</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Uikit/widgets.html" > <b class="badge pull-right">8</b> <i class="fa fa-angle-right"></i> <span>Widgets</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Uikit/components.html" > <i class="fa fa-angle-right"></i> <span>Components</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Uikit/lists.html" > <i class="fa fa-angle-right"></i> <span>List group</span> </a> </li>
                                 <li > <a href="#table" > <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> <span>Table</span> </a>
                                     <ul class="nav bg">
-                                        <li > <a href="/excavator/index.php/Admin/Uikit/table_static.html" > <i class="fa fa-angle-right"></i> <span>Table static</span> </a> </li>
-                                        <li > <a href="/excavator/index.php/Admin/Uikit/table_datatable.html" > <i class="fa fa-angle-right"></i> <span>Datatable</span> </a> </li>
-                                        <li > <a href="/excavator/index.php/Admin/Uikit/table_datagrid.html" > <i class="fa fa-angle-right"></i> <span>Datagrid</span> </a> </li>
+                                        <li > <a href="/excavator/index.php?s=/Admin/Uikit/table_static.html" > <i class="fa fa-angle-right"></i> <span>Table static</span> </a> </li>
+                                        <li > <a href="/excavator/index.php?s=/Admin/Uikit/table_datatable.html" > <i class="fa fa-angle-right"></i> <span>Datatable</span> </a> </li>
+                                        <li > <a href="/excavator/index.php?s=/Admin/Uikit/table_datagrid.html" > <i class="fa fa-angle-right"></i> <span>Datagrid</span> </a> </li>
                                     </ul>
                                 </li>
                                 <li > <a href="#form" > <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> <span>Form</span> </a>
                                     <ul class="nav bg">
-                                        <li > <a href="/excavator/index.php/Admin/Uikit/form_elements.html" > <i class="fa fa-angle-right"></i> <span>Form elements</span> </a> </li>
-                                        <li > <a href="/excavator/index.php/Admin/Uikit/form_validation.html" > <i class="fa fa-angle-right"></i> <span>Form validation</span> </a> </li>
-                                        <li > <a href="/excavator/index.php/Admin/Uikit/form_wizard.html" > <i class="fa fa-angle-right"></i> <span>Form wizard</span> </a> </li>
+                                        <li > <a href="/excavator/index.php?s=/Admin/Uikit/form_elements.html" > <i class="fa fa-angle-right"></i> <span>Form elements</span> </a> </li>
+                                        <li > <a href="/excavator/index.php?s=/Admin/Uikit/form_validation.html" > <i class="fa fa-angle-right"></i> <span>Form validation</span> </a> </li>
+                                        <li > <a href="/excavator/index.php?s=/Admin/Uikit/form_wizard.html" > <i class="fa fa-angle-right"></i> <span>Form wizard</span> </a> </li>
                                     </ul>
                                 </li>
-                                <li > <a href="/excavator/index.php/Admin/Uikit/chart.html" > <i class="fa fa-angle-right"></i> <span>Chart</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Uikit/fullcalendar.html" > <i class="fa fa-angle-right"></i> <span>Fullcalendar</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Uikit/portlet.html" > <i class="fa fa-angle-right"></i> <span>Portlet</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Uikit/timeline.html" > <i class="fa fa-angle-right"></i> <span>Timeline</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Uikit/chart.html" > <i class="fa fa-angle-right"></i> <span>Chart</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Uikit/fullcalendar.html" > <i class="fa fa-angle-right"></i> <span>Fullcalendar</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Uikit/portlet.html" > <i class="fa fa-angle-right"></i> <span>Portlet</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Uikit/timeline.html" > <i class="fa fa-angle-right"></i> <span>Timeline</span> </a> </li>
                             </ul>
                         </li>
                         <li > <a href="#pages" > <i class="fa fa-file-text icon"> <b class="bg-primary"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span>Pages</span> </a>
                             <ul class="nav lt">
-                                <li > <a href="/excavator/index.php/Admin/Page/gallery.html" > <i class="fa fa-angle-right"></i> <span>Gallery</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Page/profile.html" > <i class="fa fa-angle-right"></i> <span>Profile</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Page/invoice.html" > <i class="fa fa-angle-right"></i> <span>Invoice</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Page/intro.html" > <i class="fa fa-angle-right"></i> <span>Intro</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Page/master.html" > <i class="fa fa-angle-right"></i> <span>Master</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Page/gmap.html" > <i class="fa fa-angle-right"></i> <span>Google Map</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Page/signin.html" > <i class="fa fa-angle-right"></i> <span>Signin</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Page/signup.html" > <i class="fa fa-angle-right"></i> <span>Signup</span> </a> </li>
-                                <li > <a href="/excavator/index.php/Admin/Page/errors.html" > <i class="fa fa-angle-right"></i> <span>404</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Page/gallery.html" > <i class="fa fa-angle-right"></i> <span>Gallery</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Page/profile.html" > <i class="fa fa-angle-right"></i> <span>Profile</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Page/invoice.html" > <i class="fa fa-angle-right"></i> <span>Invoice</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Page/intro.html" > <i class="fa fa-angle-right"></i> <span>Intro</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Page/master.html" > <i class="fa fa-angle-right"></i> <span>Master</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Page/gmap.html" > <i class="fa fa-angle-right"></i> <span>Google Map</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Page/signin.html" > <i class="fa fa-angle-right"></i> <span>Signin</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Page/signup.html" > <i class="fa fa-angle-right"></i> <span>Signup</span> </a> </li>
+                                <li > <a href="/excavator/index.php?s=/Admin/Page/errors.html" > <i class="fa fa-angle-right"></i> <span>404</span> </a> </li>
                             </ul>
                         </li>
                         <?php if(is_array($userItem)): $i = 0; $__LIST__ = $userItem;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li <?php if($curAction['pid'] == $vo['id']): ?>class="active"<?php endif; ?>> <a href="javascript:;" > <i class="<?php echo ($vo["icon"]); ?>"> <b class="bg-primary"></b> </i> <span class="pull-right"> <i class="fa fa-angle-down text"></i> <i class="fa fa-angle-up text-active"></i> </span> <span><?php echo ($vo["name"]); ?></span> </a>
                                 <ul class="nav lt">
-                                    <?php if(is_array($vo['child'])): $i = 0; $__LIST__ = $vo['child'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$voo): $mod = ($i % 2 );++$i;?><li <?php if($curAction['id'] == $voo['id']): ?>class="active"<?php endif; ?>> <a href="/excavator/index.php/Admin/<?php echo ($voo["action"]); ?>" > <i class="fa fa-angle-right"></i> <span><?php echo ($voo["name"]); ?></span> </a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    <?php if(is_array($vo['child'])): $i = 0; $__LIST__ = $vo['child'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$voo): $mod = ($i % 2 );++$i;?><li <?php if($curAction['id'] == $voo['id']): ?>class="active"<?php endif; ?>> <a href="/excavator/index.php?s=/Admin/<?php echo ($voo["action"]); ?>" > <i class="fa fa-angle-right"></i> <span><?php echo ($voo["name"]); ?></span> </a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                                 </ul>
                             </li><?php endforeach; endif; else: echo "" ;endif; ?>
-                        <li > <a href="/excavator/index.php/Admin/Page/mail.html" > <b class="badge bg-danger pull-right">3</b> <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>Message</span> </a> </li>
-                        <li > <a href="/excavator/index.php/Admin/Page/notebook.html" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>Notes</span> </a> </li>
-                        <li > <a href="/excavator/index.php/Admin/Page/docs.html"><i class="fa fa-question icon"</a><b class="bg-success"></b> </i> <span>Help</span></li>
+                        <li > <a href="/excavator/index.php?s=/Admin/Page/mail.html" > <b class="badge bg-danger pull-right">3</b> <i class="fa fa-envelope-o icon"> <b class="bg-primary dker"></b> </i> <span>Message</span> </a> </li>
+                        <li > <a href="/excavator/index.php?s=/Admin/Page/notebook.html" > <i class="fa fa-pencil icon"> <b class="bg-info"></b> </i> <span>Notes</span> </a> </li>
+                        <li > <a href="/excavator/index.php?s=/Admin/Page/docs.html"><i class="fa fa-question icon"</a><b class="bg-success"></b> </i> <span>Help</span></li>
                     </ul>
                 </nav>
                 <!-- / nav --> </div>
@@ -209,10 +209,10 @@
         <section class="vbox">
             <section class="scrollable padder">
                 <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
-                    <li><a href="/excavator/index.php/Admin/Index/index.html"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href="/excavator/index.php/Admin/Attr/index">属性列表</a></li>
-                    <li><a href="/excavator/index.php/Admin/Attr/add">添加属性</a></li>
-                    <li><a href="/excavator/index.php/Admin/Attr/edit/id/<?php echo ($oneAttr["id"]); ?>">修改属性</a></li>
+                    <li><a href="/excavator/index.php?s=/Admin/Index/index.html"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="/excavator/index.php?s=/Admin/Attr/index">属性列表</a></li>
+                    <li><a href="/excavator/index.php?s=/Admin/Attr/add">添加属性</a></li>
+                    <li><a href="/excavator/index.php?s=/Admin/Attr/edit/id/<?php echo ($oneAttr["id"]); ?>">修改属性</a></li>
                 </ul>
                 <div class="m-b-md">
                     <h3 class="m-b-none">修改属性</h3>
@@ -222,7 +222,7 @@
                         <section class="panel panel-default">
                             <header class="panel-heading font-bold">修改属性</header>
                             <div class="panel-body">
-                                <form class="bs-example form-horizontal" id="ajaxForm" action="/excavator/index.php/Admin/Attr/edit">
+                                <form class="bs-example form-horizontal" id="ajaxForm" action="/excavator/index.php?s=/Admin/Attr/edit">
                                     <input type="hidden" name="id" value="<?php echo ($oneAttr["id"]); ?>" />
                                     <div class="form-group">
                                         <label class="col-sm-2 control-label">属性名称</label>
@@ -232,11 +232,13 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-2 control-label">关联分类</label>
-                                        <div class="col-sm-10">
-                                            <?php if(is_array($catelist)): $i = 0; $__LIST__ = $catelist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><label class="checkbox pad-top top-cate"><input type="checkbox" name="ids[]" value="<?php echo ($vo["id"]); ?>" <?php if(in_array(($vo['id']), is_array($oneAttr['cateids'])?$oneAttr['cateids']:explode(',',$oneAttr['cateids']))): ?>checked="checked"<?php endif; ?>><?php echo ($vo["name"]); ?></label>
-                                                <?php if(is_array($vo['child'])): $i = 0; $__LIST__ = $vo['child'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$voo): $mod = ($i % 2 );++$i;?><label class="checkbox-inline sub-cate">
-                                                        <input type="checkbox" name="ids[]" value="<?php echo ($voo["id"]); ?>" <?php if(in_array(($voo['id']), is_array($oneAttr['cateids'])?$oneAttr['cateids']:explode(',',$oneAttr['cateids']))): ?>checked="checked"<?php endif; ?>> <?php echo ($voo["name"]); ?> </label><?php endforeach; endif; else: echo "" ;endif; endforeach; endif; else: echo "" ;endif; ?>
+                                        <label class="col-lg-2 control-label">关联分类</label>
+                                        <div class="col-lg-10">
+                                            <select name="cateid" class="form-control m-b">
+                                                <option value="0">---请选择关联分类---</option>
+                                                <?php if(is_array($catelist)): $i = 0; $__LIST__ = $catelist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><optgroup label="<?php echo ($vo["name"]); ?>"><?php echo ($vo["name"]); ?></optgroup>
+                                                    <?php if(is_array($vo['child'])): $i = 0; $__LIST__ = $vo['child'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$voo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($voo["id"]); ?>" <?php if($voo['id'] == $oneAttr['cateid']): ?>selected="selected"<?php endif; ?>><?php echo ($voo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; endforeach; endif; else: echo "" ;endif; ?>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -251,6 +253,22 @@
                                         <label class="col-sm-2 control-label">属性值</label>
                                         <div class="col-sm-10">
                                             <textarea class="form-control" name="value" rows="6" data-minwords="6" data-required="true" placeholder="Type your sign"><?php echo ($oneAttr["value"]); ?></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">SKU属性</label>
+                                        <div class="col-sm-10">
+                                            <!-- radio -->
+                                            <div class="radio-inline pad-lf-none">
+                                                <label class="radio-custom margin-lf-none">
+                                                    <input type="radio" name="is_sku" value="1" <?php if($oneAttr['is_sku'] == 1): ?>checked="checked"<?php endif; ?>>
+                                                    <i class="fa fa-circle-o"></i> 是 </label>
+                                            </div>
+                                            <div class="radio-inline pad-lf-none">
+                                                <label class="radio-custom margin-lf-none">
+                                                    <input type="radio" name="is_sku" value="0" <?php if($oneAttr['is_sku'] == 0): ?>checked="checked"<?php endif; ?>>
+                                                    <i class="fa fa-circle-o"></i> 否 </label>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="form-group">

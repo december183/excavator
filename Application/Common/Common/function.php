@@ -29,7 +29,7 @@ function password($password){
  */
 function getTradeNo(){
     $code=range('A','Z');
-    return $code[rand(0,25)].date('Ymd').substr(microtime(),2,3).sprintf('%02d',rand(0,99));
+    return $code[rand(0,25)].date('YmdHis').substr(microtime(),2,3).sprintf('%02d',rand(0,99));
 }
 
 /**

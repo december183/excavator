@@ -1,41 +1,4 @@
 $(function(){
-    $('.top-cate').click(function(){
-        var flag=$(this).children().is(':checked');
-        if(flag){
-            $(this).nextUntil('.top-cate').children().prop('checked',true);
-        }else{
-            $(this).nextUntil('.top-cate').children().prop('checked',false);
-        }
-    });
-    $('.sub-cate').click(function(){
-        var flag=$(this).children().is(':checked');
-        if(flag){
-            var nextDom=$(this).nextUntil('.top-cate');
-            // console.log(nextDom);
-            var prevDom=$(this).prevUntil('.top-cate');
-            if(nextDom){
-                for(var i=0;i<nextDom.length;i++){
-                    flag=nextDom.eq(i).children().is(':checked');
-                    if(flag == false){
-                        return;
-                    }
-                }
-            }
-            if(nextDom){
-                for(var i=0;i<prevDom.length;i++){
-                    flag=prevDom.eq(i).children().is(':checked');
-                    if(flag == false){
-                        return;
-                    }
-                }
-            }
-            $(this).prevAll('.top-cate').eq(0).children().prop('checked',true);
-        }else{
-            $(this).prevAll('.top-cate').eq(0).children().prop('checked',false);
-        }
-    });
-});
-$(function(){
     var options={
         url:'',
         data: $('#ajaxForm').serialize(),
@@ -94,7 +57,7 @@ function getData(jsonObj){
             html+='<td>'+info.name+'</td>';
             html+='<td>'+info.catename+'</td>';
             html+='<td><input type="text" name="sort['+info.id+']" class="form-control short" value="'+info.sort+'" onblur="setSort('+info.id+',this);"></td>';
-            html+='<td><a href="Admin/Brand/edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
+            html+='<td><a href="index.php?s=Admin/Brand/edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
             html+='</tr>';
         }
         $('#table-info>tbody').html(html);

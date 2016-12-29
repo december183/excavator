@@ -8,7 +8,7 @@ class ManageController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->manage->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Manage/index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'index.php?s=Admin/Manage/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -18,7 +18,7 @@ class ManageController extends BaseController{
                         $this->apiReturn(404,'批量审核失败');
                     }
                 }
-                $this->apiReturn(200,'批量审核成功',array('url'=>'Admin/Manage/index'));
+                $this->apiReturn(200,'批量审核成功',array('url'=>'index.php?s=Admin/Manage/index'));
             }
         }else{
             $total=$this->manage->count();
@@ -40,7 +40,7 @@ class ManageController extends BaseController{
             }
             if($this->manage->create($data)){
                 if($this->manage->add()){
-                    $this->apiReturn(200,'添加管理员成功',array('url'=>'Admin/Manage/index'));
+                    $this->apiReturn(200,'添加管理员成功',array('url'=>'index.php?s=Admin/Manage/index'));
                 }else{
                     $this->apiReturn(404,'添加管理员失败');
                 }
@@ -66,7 +66,7 @@ class ManageController extends BaseController{
             }
             if($this->manage->create($data)){
                 if($this->manage->save()){
-                    $this->apiReturn(200,'修改管理员成功',array('url'=>'Admin/Manage/index'));
+                    $this->apiReturn(200,'修改管理员成功',array('url'=>'index.php?s=Admin/Manage/index'));
                 }else{
                     $this->apiReturn(404,'修改管理员失败');
                 }
@@ -93,7 +93,7 @@ class ManageController extends BaseController{
             }
             if($this->manage->create($data)){
                 if($this->manage->save()){
-                    $this->apiReturn(200,'密码修改成功',array('url'=>'reset'));
+                    $this->apiReturn(200,'密码修改成功',array('url'=>'index.php?s=Admin/Manage/reset'));
                 }else{
                     $this->apiReturn(404,'密码修改失败');
                 }

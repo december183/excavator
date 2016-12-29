@@ -229,12 +229,22 @@
                                             <span class="help-block m-b-none">品牌名称不能小于2位.</span>
                                         </div>
                                     </div>
-                                    <div class="form-group">
+                                    <!--<div class="form-group">
                                         <label class="col-sm-2 control-label">关联分类</label>
                                         <div class="col-sm-10">
                                             <?php if(is_array($catelist)): $i = 0; $__LIST__ = $catelist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><label class="checkbox pad-top top-cate"><input type="checkbox" name="ids[]" value="<?php echo ($vo["id"]); ?>"><?php echo ($vo["name"]); ?></label>
                                                 <?php if(is_array($vo['child'])): $i = 0; $__LIST__ = $vo['child'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$voo): $mod = ($i % 2 );++$i;?><label class="checkbox-inline sub-cate">
                                                         <input type="checkbox" name="ids[]" value="<?php echo ($voo["id"]); ?>"> <?php echo ($voo["name"]); ?> </label><?php endforeach; endif; else: echo "" ;endif; endforeach; endif; else: echo "" ;endif; ?>
+                                        </div>
+                                    </div>-->
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">关联分类</label>
+                                        <div class="col-lg-10">
+                                            <select name="cateid" class="form-control m-b">
+                                                <option value="0">---请选择关联分类---</option>
+                                                <?php if(is_array($catelist)): $i = 0; $__LIST__ = $catelist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><optgroup label="<?php echo ($vo["name"]); ?>"><?php echo ($vo["name"]); ?></optgroup>
+                                                    <?php if(is_array($vo['child'])): $i = 0; $__LIST__ = $vo['child'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$voo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($voo["id"]); ?>"><?php echo ($voo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; endforeach; endif; else: echo "" ;endif; ?>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="form-group">

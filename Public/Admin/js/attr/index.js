@@ -1,41 +1,4 @@
 $(function(){
-    $('.top-cate').click(function(){
-        var flag=$(this).children().is(':checked');
-        if(flag){
-            $(this).nextUntil('.top-cate').children().prop('checked',true);
-        }else{
-            $(this).nextUntil('.top-cate').children().prop('checked',false);
-        }
-    });
-    $('.sub-cate').click(function(){
-        var flag=$(this).children().is(':checked');
-        if(flag){
-            var nextDom=$(this).nextUntil('.top-cate');
-            // console.log(nextDom);
-            var prevDom=$(this).prevUntil('.top-cate');
-            if(nextDom){
-                for(var i=0;i<nextDom.length;i++){
-                    flag=nextDom.eq(i).children().is(':checked');
-                    if(flag == false){
-                        return;
-                    }
-                }
-            }
-            if(nextDom){
-                for(var i=0;i<prevDom.length;i++){
-                    flag=prevDom.eq(i).children().is(':checked');
-                    if(flag == false){
-                        return;
-                    }
-                }
-            }
-            $(this).prevAll('.top-cate').eq(0).children().prop('checked',true);
-        }else{
-            $(this).prevAll('.top-cate').eq(0).children().prop('checked',false);
-        }
-    });
-});
-$(function(){
     var options={
         url:'',
         data: $('#ajaxForm').serialize(),
@@ -88,13 +51,19 @@ function getData(jsonObj){
         var html='';
         for(key in jsonObj.data.list){
             var info=jsonObj.data.list[key];
+            if(info.is_sku == 1){
+                var is_sku='是';
+            }else{
+                var is_sku='否';
+            }
             html+='<tr>';
             html+='<td><input type="checkbox" name="ids[]" value="'+info.id+'"></td>';
             html+='<td>'+info.name+'</td>';
             html+='<td>'+info.catename+'</td>';
             html+='<td>'+info.typename+'</td>';
             html+='<td>'+info.value+'</td>';
-            html+='<td><a href="Admin/Attr/edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
+            html+='<td>'+is_sku+'</td>';
+            html+='<td><a href="index.php?s=Admin/Attr/edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
             html+='</tr>';
         }
         $('#table-info>tbody').html(html);

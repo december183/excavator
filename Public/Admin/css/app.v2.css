@@ -10183,3 +10183,13 @@ display:inherit !important;
 	height:auto;
 	font-size:12px;
 }
+.delpic{
+	display:inline-block;
+	/*overflow:hidden;*/
+	position:relative;
+}
+.delpic i{
+	position:absolute;
+	top:0;
+	right:5px;
+}

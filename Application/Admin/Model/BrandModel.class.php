@@ -5,7 +5,7 @@ class BrandModel extends Model{
     protected $_validate=array(
         array('name','require','品牌名称不能为空'),
         array('name','','品牌名称不能重复',0,'unique',1),
-        array('cateids','require','关联分类必须选择',1,'regex',3),
+        array('cateid','require','关联分类必须选择'),
         array('sort','number','排序字段必须为数字',2,'regex'),
     );
     protected $_auto=array(

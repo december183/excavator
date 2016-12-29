@@ -34,3 +34,207 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 ERR: 无法加载控制器:AjaxSearch
 
+[ 2016-12-23T11:20:39+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-23T11:20:41+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-23T11:20:42+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-23T11:20:43+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-23T11:20:46+08:00 ] ::1 /excavator/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AjaxSearch
+
+[ 2016-12-23T11:33:36+08:00 ] ::1 /excavator/index.php?phone=17770899727&pass=qiyi1987&submit=%E7%99%BB%E5%BD%95
+ERR: 模板不存在:./Application/Home/View/default/Index/index.html
+
+[ 2016-12-23T14:06:05+08:00 ] ::1 /excavator/index.php?s=/Home/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0624s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 18 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:06:07+08:00 ] ::1 /excavator/[object%20Object]
+ERR: 无法加载控制器:[object Object]
+
+[ 2016-12-23T14:12:15+08:00 ] ::1 /excavator/index.php?s=/Home/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 18 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:12:16+08:00 ] ::1 /excavator/[object%20Object]
+ERR: 无法加载控制器:[object Object]
+
+[ 2016-12-23T14:12:19+08:00 ] ::1 /excavator/[object%20Object]
+ERR: 无法加载控制器:[object Object]
+
+[ 2016-12-23T14:12:33+08:00 ] ::1 /excavator/index.php?s=/Home/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 18 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:13:11+08:00 ] ::1 /excavator/index.php?s=/Home/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 18 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:13:35+08:00 ] ::1 /excavator/index.php?s=/Home/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 18 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:16:49+08:00 ] ::1 /excavator/index.php?s=/Home/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 16 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:23:47+08:00 ] ::1 /excavator/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 25 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:24:32+08:00 ] ::1 /excavator/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 25 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:25:06+08:00 ] ::1 /excavator/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 25 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:25:44+08:00 ] ::1 /excavator/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 25 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:32:20+08:00 ] ::1 /excavator/Login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gms_user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\excavator\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `id`,`phone`,`pass`,`thumb`,`level` FROM `gms_user` WHERE `phone` = '17770899727' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_VIA D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [8] Undefined index: HTTP_CLIENT_IP D:\wamp\www\excavator\Application\Common\Common\function.php 第 8 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Home\Controller\LoginController.class.php on line 16 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2016-12-23T14:46:36+08:00 ] ::1 /excavator/search
+ERR: 无法加载控制器:Search
+
+[ 2016-12-23T17:17:59+08:00 ] ::1 /excavator/%E7%99%BB%E5%BD%95.html
+ERR: 无法加载控制器:登录
+
+[ 2016-12-23T17:18:19+08:00 ] ::1 /excavator/%E7%99%BB%E5%BD%95.html
+ERR: 无法加载控制器:登录
+

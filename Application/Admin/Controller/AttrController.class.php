@@ -17,7 +17,7 @@ class AttrController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->attr->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Attr/index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'index.php?s=Admin/Attr/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -26,8 +26,7 @@ class AttrController extends BaseController{
             $total=$this->attr->count();
             $page=new \Think\PageAjax($total,PAGE_SIZE);
             $show=$page->show();
-            $list=$this->attr->alias('a')->join('gms_attr_type AS b ON a.type=b.id')->field('a.id,a.name,a.cateids,a.value,b.name AS typename')->limit($page->firstRow.','.$page->listRows)->select();
-            $attrlist=self::processData($list);
+            $attrlist=$this->attr->alias('a')->join('gms_attr_type AS b ON a.type=b.id')->join('gms_category AS c ON a.cateid=c.id')->field('a.id,a.name,c.name AS catename,a.value,a.is_sku,b.name AS typename')->limit($page->firstRow.','.$page->listRows)->select();
             $this->assign('attrlist',$attrlist);
             $this->assign('page',$show);
             $this->display();
@@ -36,10 +35,9 @@ class AttrController extends BaseController{
     public function add(){
         if(IS_POST){
             $data=I('param.');
-            $data['cateids']=implode(',',$data['ids']);
             if($this->attr->create($data)){
                 if($this->attr->add()){
-                    $this->apiReturn(200,'新增属性成功',array('url'=>'Admin/Attr/index'));
+                    $this->apiReturn(200,'新增属性成功',array('url'=>'index.php?s=Admin/Attr/index'));
                 }else{
                     $this->apiReturn(404,'新增属性失败');
                 }
@@ -57,13 +55,12 @@ class AttrController extends BaseController{
     public function edit(){
         if(IS_POST){
             $data=I('param.');
-            $data['cateids']=implode(',',$data['ids']);
             if(!$this->attr->checkName($data['id'],$data['name'])){
                 $this->apiReturn(403,'属性名称不能重复');
             }
             if($this->attr->create($data)){
                 if($this->attr->save()){
-                    $this->apiReturn(200,'修改属性成功',array('url'=>'Admin/Attr/index'));
+                    $this->apiReturn(200,'修改属性成功',array('url'=>'index.php?s=Admin/Attr/index'));
                 }else{
                     $this->apiReturn(404,'修改属性失败');
                 }
@@ -89,7 +86,7 @@ class AttrController extends BaseController{
             $this->apiReturn(404,'删除失败');
         }
     }
-    protected function processData(Array $param=array()){
+    /*protected function processData(Array $param=array()){
         $result=array();
         foreach($param as $value){
             $arr=explode(',',$value['cateids']);
@@ -102,7 +99,7 @@ class AttrController extends BaseController{
             $result[]=$value;
         }
         return $result;
-    }
+    }*/
     public function ajaxSearch(){
         $data=I('param.');
         if(isset($data['keywords']) && !empty($data['keywords'])){
@@ -112,12 +109,20 @@ class AttrController extends BaseController{
         $total=$this->attr->where($map)->count();
         $page=new \Think\PageAjax($total,PAGE_SIZE);
         $show=$page->show();
-        $list=$this->attr->alias('a')->join('gms_attr_type AS b ON a.type=b.id')->field('a.id,a.name,a.cateids,a.value,b.name AS typename')->where($condition)->limit($page->firstRow.','.$page->listRows)->select();
-        $attrlist=self::processData($list);
+        $attrlist=$this->attr->alias('a')->join('gms_attr_type AS b ON a.type=b.id')->join('gms_category AS c ON a.cateid=c.id')->field('a.id,a.name,c.name AS catename,a.value,a.is_sku,b.name AS typename')->where($condition)->limit($page->firstRow.','.$page->listRows)->select();
         if($attrlist){
             $this->apiReturn(200,'获取分页数据成功',array('list'=>$attrlist,'page'=>$show));
         }else{
             $this->apiReturn(404,'暂无数据');
+        }
+    }
+    public function getAttr(){
+        $data['cateid']=I('param.cateid');
+        $attrlist=$this->attr->field('id,name,type,value')->where($data)->select();
+        if($attrlist){
+            $this->apiReturn(200,'获取属性信息成功',$attrlist);
+        }else{
+            $this->apiReturn(404,'获取属性信息失败');
         }
     }
 }

@@ -17,6 +17,58 @@ function add0(num){
     return num<10?'0'+num:num;
 }
 /**
+ * 全选与取消
+ */
+function selectAll(){
+    $('.top-cate').click(function(){
+        var flag=$(this).children().is(':checked');
+        if(flag){
+            $(this).nextUntil('.top-cate').children().prop('checked',true);
+        }else{
+            $(this).nextUntil('.top-cate').children().prop('checked',false);
+        }
+    });
+    $('.sub-cate').click(function(){
+        var flag=$(this).children().is(':checked');
+        if(flag){
+            var nextDom=$(this).nextUntil('.top-cate');
+            // console.log(nextDom);
+            var prevDom=$(this).prevUntil('.top-cate');
+            if(nextDom){
+                for(var i=0;i<nextDom.length;i++){
+                    flag=nextDom.eq(i).children().is(':checked');
+                    if(flag == false){
+                        return;
+                    }
+                }
+            }
+            if(nextDom){
+                for(var i=0;i<prevDom.length;i++){
+                    flag=prevDom.eq(i).children().is(':checked');
+                    if(flag == false){
+                        return;
+                    }
+                }
+            }
+            $(this).prevAll('.top-cate').eq(0).children().prop('checked',true);
+        }else{
+            $(this).prevAll('.top-cate').eq(0).children().prop('checked',false);
+        }
+    });
+}
+/**
+ * 打开上传插件
+ */
+function openUp(){
+    var url='Admin/Up/index';
+    var name='上传图片';
+    var iWidth='750';
+    var iHeight='500';
+    var iTop=(window.screen.availHeight - iHeight)/2;
+    var iLeft=(window.screen.availWidth - iWidth)/2;
+    window.open(url,name,'height='+iHeight+',width='+iWidth+',top='+iTop+',left='+iLeft+',toolbar=no,menubar=no,scrollbars=no,resizeable=no,location=no,status=no');
+}
+/**
  * 格式化时间戳为日期 年-月-日 时:分:秒
  * @param {int} timestamp
  * @returns {string}

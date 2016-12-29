@@ -245,6 +245,7 @@
                                 <th>关联分类</th>
                                 <th>属性类型</th>
                                 <th>属性值</th>
+                                <th>是否SKU属性</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
@@ -255,6 +256,7 @@
                                     <td><?php echo ($vo["catename"]); ?></td>
                                     <td><?php echo ($vo["typename"]); ?></td>
                                     <td><?php echo ($vo["value"]); ?></td>
+                                    <td><?php if($vo['is_sku'] == 1): ?>是<?php else: ?>否<?php endif; ?></td>
                                     <td><a href="/excavator/index.php?s=/Admin/Attr/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>

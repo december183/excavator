@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*登录页面*/
+*{ margin:0; padding:0;font-family:"微软雅黑"; overflow-x: hidden; overflow-y: auto;list-style-type:none; color:#c4c4c4; text-decoration:none;outline: none; }
+header{ height:120px; width:100%; background:#e52f2e;overflow-y: hidden}header div{ float:left;}
+header .back{ margin-top:-12px; width:20%;}header .back img{ width:100px; margin:15px 0 0 5px;}
+header .entry{ font-size:40px; font-weight:bold; color:#fff; width:60%;margin-top:35px; text-align:center;}
+header .register{ float:right; margin-right:20px; font-size:34px; color:#fff; margin-top:40px;}
+#tel .tel{ border:none; position:absolute; top:180px; width:65%; font-size:40px; height:80px;outline:0;}
+#validate img{ margin:20px 10px 0 10px;}#validate .tel2{border:none; position:absolute; top:365px; width:65%; font-size:40px; height:80px;outline:0;}
+.into{ width:80%;margin:0 auto; margin-top:100px;}
+.into input{ height:100px; border:0; border-radius:15px; background:#e52f2e; color:#fff; font-size:50px; width:100%;letter-spacing: 10px; }
+.into2{color:#ababab;margin:0 auto;margin-top:-30px; font-size:40px; width:350px;text-align:center; background:#fff;}
+#other{ margin-top:80px;}#other .weixin,#other .QQ{ width:50%; float:left;}#other .weixin img,#other .QQ img{ width:160px;}
+.weixin2,.QQ2{ width:160px; margin:0 auto; text-align:center; font-size:34px;}
+
+/*注册页面*/
+#register{ height:400px; margin-top:30px;}#register input{ border:1px solid #666666; border-radius:10px; background:none; height:100px; width:88%; margin-left:5%; font-size:70px; margin-top:20px; padding-left:2%;}
+.affirm{width:90%; margin:0 auto;}
+.affirm_name{border:1px solid #666666; border-radius:10px; background:none; height:100px; width:70%; font-size:70px; padding-left:2%;}
+#identifying_code{height:100px; font-size:40px; border:0; border-radius:10px; background:#e52f2e; color:#fff; width:27%; float:right;}
+.affirm2{ width:90%; margin:0 auto; margin-top:50px;}.affirm2 input{height:100px; font-size:40px; border:0; border-radius:10px; background:#e52f2e; color:#fff; width:100%;}
+.agree{ margin-top:20px;}.agree div{ font-size:40px; float:left;}.agree div span {color: #e52f2e; font-size:34px;}
+/*天天热卖*/
+#headline{ height:550px; width:100%;}
+.headline{ font-size:45px; color:#e52f2e; margin:10px; margin-left:2.5%; float:left; width:45%; }
+#headline ul{ height:405px; width:94%; margin:0 auto;}
+#headline li{ height:400px; border:1px solid #666; width:30%; margin:0 1.5% 0 1%; float:left;}
+.picture div{ height:300px; border-bottom:1px solid #666; overflow:hidden;}.picture  img{ height:300px;}
+.picture_name{ font-size:32px; width:80%;white-space:nowrap; text-overflow:ellipsis; color:#000; margin-left:2.5%;}
+.picture_price{ font-size:32px; color:#e52f2e;margin-left:2.5%;}
+#special_offer{ width:100%; color:#000;}#bot-box,.dt{ color:#000;}
+.dt span{ width:100px; height:100px; background:#000; color:#fff;}
+.time{ padding-left:70px; font-size:32px; padding-top:10px;}
+.headline1{ padding:10px; font-size:40px;}
+.headline img{ height:300px;}
+.next_time{ margin-left:10%;}
+.headline1 .goods_button{border-radius:40px; height:80px; background:#fdd137; margin-top:25px; text-align:center; line-height:80px; color:#000;}
+.headline1 span{ color:#e52f2e;}
+.headline1 input{ width:35%; background:#e52f2e; border-radius:15px; height:65px; font-size:32px; color:#fff; border:none; margin-left:5%;}
+.goods li{ float:left; width:45%; font-size:40px; text-align:center; border:1px solid #333; height:450px; margin:10px 2%}
+.goods li img{ height:300px; margin:10px 0 20px 0;}
+.goods li p{ color:#000; font-weight:bold;}
+.price{ font-size:30px; text-decoration:line-through;}
+.price2{ color:#e52f2e;}
+.more{ margin-left:25%; width:50%; margin-top:10px; margin-bottom:10px; background:none; border:none; font-size:40px;}
+

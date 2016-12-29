@@ -73,7 +73,7 @@
                                     <td>{$vo.wechat}</td>
                                     <td>{$vo.alipay}</td>
                                     <td><if condition="$vo['status'] eq 1"><a href="#" onclick="setStatus({$vo.id},this)"><span class="text-primary text">正常</span></a><else /><a href="#" onclick="setStatus({$vo.id},this)"><span class="text-danger text">已禁用</span></a></if></td>
-                                    <td><a href="javascript:;" onclick="return ajaxDel({$vo.id},this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                    <td><a onclick="return ajaxDel({$vo.id},this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                 </tr>
                             </volist>
                             </tbody>

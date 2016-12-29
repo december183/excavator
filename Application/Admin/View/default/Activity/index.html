@@ -86,7 +86,7 @@
                                     <td>{$vo.endtime}</td>
                                     <td><if condition="$vo['status'] eq 0">已结束<elseif condition="$vo['status'] eq 1" />未开始<else />进行中</if></td>
                                     <td><if condition="$vo['isrec'] eq 1"><a href="#" onclick="setRec({$vo.id},this)">已推荐</a><else /><a href="#" onclick="setRec({$vo.id},this)">未推荐</a></if></td>
-                                    <td><a href="__CONTROLLER__/edit/id/{$vo.id}" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel({$vo.id},this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                    <td><a href="__CONTROLLER__/edit/id/{$vo.id}" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel({$vo.id},this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                 </tr>
                             </volist>
                             </tbody>

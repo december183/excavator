@@ -15,7 +15,7 @@ class AdverController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->adver->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Adver/index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'index.php?s=Admin/Adver/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -25,7 +25,7 @@ class AdverController extends BaseController{
                         $this->apiReturn(404,'批量设置失败');
                     }
                 }
-                $this->apiReturn(200,'批量设置成功',array('url'=>'Admin/Adver/index'));
+                $this->apiReturn(200,'批量设置成功',array('url'=>'index.php?s=Admin/Adver/index'));
             }
         }else{
             $typelist=$this->type->field('id,name')->where(array('status'=>1))->select();
@@ -53,7 +53,7 @@ class AdverController extends BaseController{
             }
             if($this->adver->create($data)){
                 if($this->adver->add()){
-                    $this->apiReturn(200,'添加广告成功',array('url'=>'Admin/Adver/index'));
+                    $this->apiReturn(200,'添加广告成功',array('url'=>'index.php?s=Admin/Adver/index'));
                 }else{
                     $this->apiReturn(404,'添加广告失败');
                 }
@@ -83,7 +83,7 @@ class AdverController extends BaseController{
             }
             if($this->adver->create($data)){
                 if($this->adver->save()){
-                    $this->apiReturn(200,'修改广告成功',array('url'=>'Admin/Adver/index'));
+                    $this->apiReturn(200,'修改广告成功',array('url'=>'index.php?s=Admin/Adver/index'));
                 }else{
                     $this->apiReturn(404,'修改广告失败');
                 }

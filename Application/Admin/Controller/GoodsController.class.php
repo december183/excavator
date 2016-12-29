@@ -17,7 +17,7 @@ class GoodsController extends BaseController{
             if($data['action'] == 1){
                 $ids=implode(',',$data['ids']);
                 if($this->goods->delete($ids)){
-                    $this->apiReturn(200,'批量删除成功',array('url'=>'Admin/Goods/index'));
+                    $this->apiReturn(200,'批量删除成功',array('url'=>'index.php?s=Admin/Goods/index'));
                 }else{
                     $this->apiReturn(404,'批量删除失败');
                 }
@@ -27,27 +27,27 @@ class GoodsController extends BaseController{
                         $this->apiReturn(404,'批量审核失败');
                     }
                 }
-                $this->apiReturn(200,'批量审核成功',array('url'=>'Admin/Goods/index'));
+                $this->apiReturn(200,'批量审核成功',array('url'=>'index.php?s=Admin/Goods/index'));
             }elseif($data['action'] == 3){
                 foreach($data['ids'] as $id){
                     if($this->goods->where(array('id'=>$id))->setField('isup',1) < 1){
                         $this->apiReturn(404,'批量上架失败');
                     }
                 }
-                $this->apiReturn(200,'批量上架成功',array('url'=>'Admin/Goods/index'));
+                $this->apiReturn(200,'批量上架成功',array('url'=>'index.php?s=Admin/Goods/index'));
             }elseif($data['action'] == 4){
                 foreach($data['ids'] as $id){
                     if($this->goods->where(array('id'=>$id))->setField('isrec',1) < 1){
                         $this->apiReturn(404,'批量推荐失败');
                     }
                 }
-                $this->apiReturn(200,'批量推荐成功',array('url'=>'Admin/Goods/index'));
+                $this->apiReturn(200,'批量推荐成功',array('url'=>'index.php?s=Admin/Goods/index'));
             }
         }else{
-            $total=$this->goods->where()->count();
+            $total=$this->goods->where(array('isdelete'=>0))->count();
             $page=new \Think\PageAjax($total,PAGE_SIZE);
             $show=$page->show();
-            $goodslist=$this->goods->alias('a')->join('gms_brand AS b ON a.brand=b.id')->field('a.id,a.title,a.tags,a.thumbpic,b.name AS brandname,a.price,a.inventory,a.hits,a.isfreight,a.isdiscount,a.ishot,a.isup,a.isrec,a.status')->where(array('isdelete'=>0))->select();
+            $goodslist=$this->goods->alias('a')->join('gms_brand AS b ON a.brand=b.id')->field('a.id,a.title,a.tags,a.thumbpic,b.name AS brandname,a.price,a.inventory,a.hits,a.isfreight,a.isdiscount,a.ishot,a.isup,a.isrec,a.status')->where(array('isdelete'=>0))->order('date DESC')->limit($page->firstRow.','.$page->listRows)->select();
             $catelist=$this->cate->getSortActiveCateList();
             $typelist=$this->type->field('id,name')->where(array('status'=>1))->select();
             $this->assign('goodslist',$goodslist);
