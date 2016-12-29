@@ -276,7 +276,7 @@
                                     <td rowspan="<?php echo ($vo["count"]); ?>"><?php if($vo['paymethod'] == 1): ?>微信<?php else: ?>支付宝<?php endif; ?></td>
                                     <td rowspan="<?php echo ($vo["count"]); ?>"><?php echo (date('Y-m-d',$vo["date"])); ?></td>
                                     <td rowspan="<?php echo ($vo["count"]); ?>"><?php if($vo['status'] == 0): ?>已取消<?php elseif($vo['status'] == 1): ?>已完成<?php elseif($vo['status'] == 2): ?>待收货<?php elseif($vo['status'] == 3): ?>待发货<?php elseif($vo['status'] == 4): ?>待付款<?php endif; ?></td>
-                                    <td rowspan="<?php echo ($vo["count"]); ?>"><a href="/excavator/index.php?s=/Admin/Order/detail/id/<?php echo ($vo["id"]); ?>" data-toggle="class" title="查看详情"><i class="fa fa-eyes text-primary text"></i></a>　<a href="javascript:;" onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                    <td rowspan="<?php echo ($vo["count"]); ?>"><a href="/excavator/index.php?s=/Admin/Order/detail/id/<?php echo ($vo["id"]); ?>" data-toggle="class" title="查看详情"><i class="fa fa-eyes text-primary text"></i></a>　<a onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                 </tr>
                                     <?php else: ?>
                                 <tr>

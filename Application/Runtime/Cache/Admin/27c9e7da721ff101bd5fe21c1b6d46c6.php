@@ -255,7 +255,7 @@
                                     <td><?php echo ($vo["name"]); ?></td>
                                     <td><?php echo ($vo["catename"]); ?></td>
                                     <td><input type="text" name="sort[<?php echo ($vo["id"]); ?>]" class="form-control short" value="<?php echo ($vo["sort"]); ?>" onblur="setSort(<?php echo ($vo["id"]); ?>,this);"></td>
-                                    <td><a href="/excavator/index.php?s=/Admin/Brand/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                    <td><a href="/excavator/index.php?s=/Admin/Brand/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
                         </table>

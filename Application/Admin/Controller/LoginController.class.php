@@ -34,7 +34,7 @@ class LoginController extends Controller{
                 if($oneManage['userpass'] == password($data['userpass'])){
                     unset($oneManage['userpass']);
                     session('user',$oneManage);
-                    $this->apiReturn(200,'登录成功',array('url'=>'index.php?s=Admin/Index/index'));
+                    $this->apiReturn(200,'登录成功',array('url'=>'Admin/Index/index'));
                 }else{
                     $this->apiReturn(403,'密码错误');
                 }

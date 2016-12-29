@@ -60,7 +60,7 @@ function getData(jsonObj){
             html+='<tr>';
             html+='<td><input type="checkbox" name="ids[]" value="'+info.id+'"></td>';
             html+='<td>'+info.name+'</td>';
-            html+='<td>'+info.auth+'</td>';
+            html+='<td><span style="display:inline-block;word-break: break-all;">'+info.auth+'</span></td>';
             html+='<td>'+status+'</td>';
             html+='<td><a href="index.php?s=Admin/Goods/edit/id/'+info.id+'" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel('+info.id+',this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>';
             html+='</tr>';

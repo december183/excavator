@@ -278,7 +278,7 @@
                                     <td><?php echo ($vo["endtime"]); ?></td>
                                     <td><?php if($vo['status'] == 0): ?>已结束<?php elseif($vo['status'] == 1): ?>未开始<?php else: ?>进行中<?php endif; ?></td>
                                     <td><?php if($vo['isrec'] == 1): ?><a href="#" onclick="setRec(<?php echo ($vo["id"]); ?>,this)">已推荐</a><?php else: ?><a href="#" onclick="setRec(<?php echo ($vo["id"]); ?>,this)">未推荐</a><?php endif; ?></td>
-                                    <td><a href="/excavator/index.php?s=/Admin/Activity/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                    <td><a href="/excavator/index.php?s=/Admin/Activity/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
                         </table>

@@ -254,7 +254,7 @@
                                     <td><?php echo ($vo["name"]); ?></td>
                                     <td><?php echo ($vo["summary"]); ?></td>
                                     <td><?php if($vo['isrec'] == 1): ?><a href="#" onclick="setStatus(<?php echo ($vo["id"]); ?>,this)">已使用</a><?php else: ?><a href="#" onclick="setStatus(<?php echo ($vo["id"]); ?>,this)">未使用</a><?php endif; ?></td>
-                                    <td><a href="/excavator/index.php?s=/Admin/ArticleType/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                    <td><a href="/excavator/index.php?s=/Admin/ArticleType/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
                         </table>
@@ -273,7 +273,7 @@
                 </footer>
             </section>
         </section>
-        <script src="/excavator/Public/Admin/js/activity/index.js"></script>
+        <script src="/excavator/Public/Admin/js/articletype/index.js"></script>
 
             <!-- /content -->
             <!-- rightside -->

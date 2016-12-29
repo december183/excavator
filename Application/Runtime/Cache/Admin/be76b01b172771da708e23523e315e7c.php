@@ -291,7 +291,7 @@
                                     <td><?php if($vo['isup'] == 1): ?><a href="#" onclick="setUp(<?php echo ($vo["id"]); ?>,this)">已上架</a><?php else: ?><a href="#" onclick="setUp(<?php echo ($vo["id"]); ?>,this)">已下架</a><?php endif; ?></td>
                                     <td><?php if($vo['isrec'] == 1): ?><a href="#" onclick="setRec(<?php echo ($vo["id"]); ?>,this)">已推荐</a><?php else: ?><a href="#" onclick="setRec(<?php echo ($vo["id"]); ?>,this)">未推荐</a><?php endif; ?></td>
                                     <td><?php if($vo['status'] == 1): ?><a href="#" onclick="setStatus(<?php echo ($vo["id"]); ?>,this)">已通过</a><?php else: ?><a href="#" onclick="setStatus(<?php echo ($vo["id"]); ?>,this)">未审核</a><?php endif; ?></td>
-                                    <td><a href="/excavator/index.php?s=/Admin/Goods/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                    <td><a href="/excavator/index.php?s=/Admin/Goods/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
                         </table>

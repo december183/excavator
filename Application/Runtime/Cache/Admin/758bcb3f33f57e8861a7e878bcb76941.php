@@ -260,7 +260,7 @@
                                         <td><?php echo ($vo["descript"]); ?></td>
                                         <td><input type="text" name="sort[<?php echo ($vo["id"]); ?>]" class="form-control short" value="<?php echo ($vo["sort"]); ?>" onblur="setSort(<?php echo ($vo["id"]); ?>,this);"></td>
                                         <td><?php if($vo['status'] == 1): ?><a href="#" onclick="setStatus(<?php echo ($vo["id"]); ?>,this)">已启用</a><?php else: ?><a href="#" onclick="setStatus(<?php echo ($vo["id"]); ?>,this)">已禁用</a><?php endif; ?></td>
-                                        <td><a href="/excavator/index.php?s=/Admin/Category/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                        <td><a href="/excavator/index.php?s=/Admin/Category/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                     </tr>
                                     <?php if(is_array($vo['child'])): $i = 0; $__LIST__ = $vo['child'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$voo): $mod = ($i % 2 );++$i;?><tr class="submenu">
                                             <td></td>
@@ -270,7 +270,7 @@
                                             <td><?php echo ($voo["descript"]); ?></td>
                                             <td><input type="text" name="sort[<?php echo ($voo["id"]); ?>]" class="form-control short" value="<?php echo ($voo["sort"]); ?>" onblur="setSort(<?php echo ($voo["id"]); ?>,this);"></td>
                                             <td><?php if($voo['status'] == 1): ?><a href="#" onclick="setStatus(<?php echo ($voo["id"]); ?>,this)">已启用</a><?php else: ?><a href="#" onclick="setStatus(<?php echo ($voo["id"]); ?>,this)">已禁用</a><?php endif; ?></td>
-                                            <td><a href="/excavator/index.php?s=/Admin/Category/edit/id/<?php echo ($voo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel(<?php echo ($voo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                            <td><a href="/excavator/index.php?s=/Admin/Category/edit/id/<?php echo ($voo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel(<?php echo ($voo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                         </tr><?php endforeach; endif; else: echo "" ;endif; endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
                         </table>

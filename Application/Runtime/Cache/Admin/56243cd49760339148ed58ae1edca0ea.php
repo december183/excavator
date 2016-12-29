@@ -276,13 +276,13 @@
                                         <input type="hidden" name="mainpic" id="mainpic" value="<?php echo ($oneGoods["mainpic"]); ?>"/>
                                         <div class="col-sm-4">
                                             <input type="text" class="form-control" name="thumbpic" id="thumbpic" value="<?php echo ($oneGoods["thumbpic"]); ?>"/>
-                                            <span class="help-block m-b-none">商品图片最多上传6张.</span>
+                                            <span class="help-block m-b-none">商品主图需大于600x600,且单张最大不超过2M,最多上传6张.</span>
                                         </div>
                                         <div class="col-sm-6"><a href="javascript:;" onclick="openUp();" class="btn btn-s-md btn-default">上传图片</a></div>
                                     </div>
                                     <div class="row">
                                         <div class="col-sm-2"></div>
-                                        <div class="col-sm-10" id="thumb"><?php if(is_array($oneGoods['thumb'])): $i = 0; $__LIST__ = $oneGoods['thumb'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><img class="img-responsive thumb m-r-xs" src="<?php echo ($vo); ?>" alt="缩略图" /><?php endforeach; endif; else: echo "" ;endif; ?></div>
+                                        <div class="col-sm-10" id="thumb"><?php if(is_array($oneGoods['thumb'])): $i = 0; $__LIST__ = $oneGoods['thumb'];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a class="delpic" onclick="delPic(this);"><img class="img-responsive thumb m-r-xs" src="<?php echo ($vo); ?>" alt="缩略图" /><i class="fa fa-times text-danger text"></i></a><?php endforeach; endif; else: echo "" ;endif; ?></div>
                                     </div>
                                     <div class="form-group">
                                         <label class="col-sm-2 control-label">商品描述</label>

@@ -257,7 +257,7 @@
                                     <td><?php echo ($vo["typename"]); ?></td>
                                     <td><?php echo ($vo["value"]); ?></td>
                                     <td><?php if($vo['is_sku'] == 1): ?>是<?php else: ?>否<?php endif; ?></td>
-                                    <td><a href="/excavator/index.php?s=/Admin/Attr/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a href="javascript:;" onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                    <td><a href="/excavator/index.php?s=/Admin/Attr/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
                         </table>

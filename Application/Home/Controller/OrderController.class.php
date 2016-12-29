@@ -59,7 +59,7 @@ class OrderController extends BaseController{
         //接收传入的参数:所有商品的ID(ids),对应商品的数量(num),订单总金额(totalfee),支付方式(paymethod),收货地址ID(pickid),订单备注(remark)
         $param=I('param.');
 
-        //传入的商品ID数组获取订单商品信息,订单总金额,并根据不同商家拆分的订单金额
+        //根据传入的商品ID数组获取订单商品信息,订单总金额,并根据不同商家拆分的订单金额
         $arr=self::getOrderInfo($param['ids']);
         $data2['uid']=session('user.id');
         $data2['order_no']=getTradeNo();
@@ -76,8 +76,8 @@ class OrderController extends BaseController{
             $this->apiReturn(404,'生成支付订单失败');
         }
         //根据不同的商家生成不同的商品订单
-        foreach($arr['ordersfee'] as $key=>$value){
-            $totalfee=array_sum($value);
+        foreach($arr['orders'] as $key=>$value){
+            $totalfee=$value['totalfee'];
             $data['uid']=session('user.id');
             $data['sid']=$key;
             $data['payid']=$payid;
@@ -88,7 +88,8 @@ class OrderController extends BaseController{
             $data['order_no']=getTradeNo();
             if($this->order->create($data)){
                 if($insertId=$this->order->add()){
-                    foreach($arr['goodsinfo'] as $val){
+                    unset($value['totalfee']);
+                    foreach($value as $val){
                         $val['orderid']=$insertId;
                         if(!$this->ordergoods->add($val)){
                             $this->order->rollback();
@@ -118,7 +119,7 @@ class OrderController extends BaseController{
      * @return array
      */
     function getOrderInfo(Array $param){
-        $goodsinfo=$ordersfee=array();
+        $orders=array();
         $totalfee=0;
         foreach($param as $id) {
             $info=array();
@@ -132,11 +133,11 @@ class OrderController extends BaseController{
             $info['title']=$oneGoods['title'];
             $info['thumbpic']=$oneGoods['thumbpic'];
             $info['num']=$param['num'][$id];
-            $goodsinfo[]=$info;
+            $orders[$oneGoods['uid']][] = $info;
+            $orders[$oneGoods['uid']]['totalfee']+=$info['num']*$info['price'];
             $totalfee+=$info['num']*$info['price'];
-            $ordersfee[$oneGoods['uid']][] = $info['num']*$info['price'];
         }
-        return array('goodsinfo'=>$goodsinfo,'totalfee'=>$totalfee,'ordersfee'=>$ordersfee);
+        return array('totalfee'=>$totalfee,'orders'=>$orders);
     }
     /**
      * 订单支付

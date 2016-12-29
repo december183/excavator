@@ -18,6 +18,10 @@ $(function(){
         var keywords=$('#keywords').val();
         var cateid=$('#cateid').val();
         var type=$('#typeid').val();
+        if(keywords == '' && cateid == 0 && type == 0){
+            alert('请输入关键词或选择商品分类');
+            return;
+        }
         $.ajax({
             url:'Admin/Goods/ajaxSearch',
             data:{keywords:keywords,cateid:cateid,type:type},

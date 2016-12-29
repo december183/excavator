@@ -24,7 +24,7 @@ function getBrand(cateid){
                 html+='<div class="col-lg-4">';
                 html+='<select name="brand" class="form-control m-b">';
                 html+='<option value="0">---请选择品牌---</option>';
-                for(key in res.data){
+                for(var key=0;key<res.data.length;key++){
                     var info=res.data[key];
                     html+='<option value="'+info.id+'">'+info.name+'</option>';
                 }
@@ -58,7 +58,7 @@ function getCurBrand(cateid,brand){
                 html+='<div class="col-lg-4">';
                 html+='<select name="brand" class="form-control m-b">';
                 html+='<option value="0">---请选择品牌---</option>';
-                for(key in res.data){
+                for(var key=0;key<res.data.length;key++){
                     var info=res.data[key];
                     if(brand == info.id){
                         html+='<option value="'+info.id+'" selected="selected">'+info.name+'</option>';
@@ -91,7 +91,7 @@ function getAttr(cateid){
         success:function(res){
             if(res.status == 200){
                 var html='';
-                for(key in res.data){
+                for(var key=0;key<res.data.length;key++){
                     var info=res.data[key];
                     if(info.type == 1){
                         html+='<div class="form-group">';
@@ -160,7 +160,7 @@ function getCurAttr(cateid,attrstr){
         success:function(res){
             if(res.status == 200){
                 var html='';
-                for(key in res.data){
+                for(var key=0;key<res.data.length;key++){
                     var info=res.data[key];
                     var k=info.id;
                     if(info.type == 1){

@@ -65,7 +65,7 @@
                                         <td>{$vo.action}</td>
                                         <td><input type="text" name="sort[{$vo.id}]" class="form-control short" value="{$vo.sort}" onblur="setSort({$vo.id},this);"></td>
                                         <td><if condition="$vo['status'] eq 1"><a href="#" onclick="setStatus({$vo.id},this)">是</a><else /><a href="#" onclick="setStatus({$vo.id},this)">否</a></if></td>
-                                        <td><if condition="$vo['status'] eq 1"><a href="#" onclick="setAuth({$vo.id},this)">是</a><else /><a href="#" onclick="setAuth({$vo.id},this)">否</a></if></td>
+                                        <td><if condition="$vo['isauth'] eq 1"><a href="#" onclick="setAuth({$vo.id},this)">是</a><else /><a href="#" onclick="setAuth({$vo.id},this)">否</a></if></td>
                                         <td><a href="__CONTROLLER__/edit/id/{$vo.id}" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel({$vo.id},this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                     </tr>
                                     <volist name="vo['child']" id="voo">
@@ -77,7 +77,7 @@
                                             <td>{$voo.action}</td>
                                             <td><input type="text" name="sort[{$vo.id}]" class="form-control short" value="{$voo.sort}" onblur="setSort({$voo.id},this);"></td>
                                             <td><if condition="$voo['status'] eq 1"><a href="#" onclick="setStatus({$voo.id},this)">是</a><else /><a href="#" onclick="setStatus({$voo.id},this)">否</a></if></td>
-                                            <td><if condition="$voo['status'] eq 1"><a href="#" onclick="setAuth({$voo.id},this)">是</a><else /><a href="#" onclick="setAuth({$voo.id},this)">否</a></if></td>
+                                            <td><if condition="$voo['isauth'] eq 1"><a href="#" onclick="setAuth({$voo.id},this)">是</a><else /><a href="#" onclick="setAuth({$voo.id},this)">否</a></if></td>
                                             <td><a href="__CONTROLLER__/edit/id/{$voo.id}" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel({$voo.id},this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                         </tr>
                                     </volist>

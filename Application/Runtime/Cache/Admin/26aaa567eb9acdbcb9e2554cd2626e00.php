@@ -271,7 +271,7 @@
                                     <td><?php echo ($vo["wechat"]); ?></td>
                                     <td><?php echo ($vo["alipay"]); ?></td>
                                     <td><?php if($vo['status'] == 1): ?><a href="#" onclick="setStatus(<?php echo ($vo["id"]); ?>,this)"><span class="text-primary text">正常</span></a><?php else: ?><a href="#" onclick="setStatus(<?php echo ($vo["id"]); ?>,this)"><span class="text-danger text">已禁用</span></a><?php endif; ?></td>
-                                    <td><a href="javascript:;" onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                    <td><a onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
                         </table>
