@@ -1,0 +1,2236 @@
+[ 2017-01-02T09:20:47+08:00 ] 127.0.0.1 /excavator/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`userpass` FROM `gms_manage` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\LoginController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T09:52:25+08:00 ] 127.0.0.1 /excavator/Admin/AdverType/getTypeInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'AdverType/getTypeInfo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_adver_type` [ RunTime:0.0100s ]
+SQL: SELECT `width`,`height` FROM `gms_adver_type` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\AdverTypeController.class.php on line 86 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\AdverTypeController.class.php on line 86 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 256 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T09:53:04+08:00 ] 127.0.0.1 /excavator/Admin/AdverType/getTypeInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'AdverType/getTypeInfo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_adver_type` [ RunTime:0.0100s ]
+SQL: SELECT `width`,`height` FROM `gms_adver_type` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\AdverTypeController.class.php on line 86 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\AdverTypeController.class.php on line 86 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 256 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T09:54:28+08:00 ] 127.0.0.1 /excavator/Admin/AdverType/getTypeInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'AdverType/getTypeInfo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_adver_type` [ RunTime:0.0000s ]
+SQL: SELECT `width`,`height` FROM `gms_adver_type` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\AdverTypeController.class.php on line 86 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\AdverTypeController.class.php on line 86 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 256 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T11:05:48+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0080s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T11:09:25+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T11:26:23+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T11:26:40+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0156s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 'WEB_IS_PICMARK' [ RunTime:0.0312s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' [ RunTime:0.0468s ]
+NOTIC: [2] Missing argument 3 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 35 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 35 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 256 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T11:28:02+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 'WEB_IS_PICMARK' [ RunTime:0.0468s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' [ RunTime:0.0312s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' [ RunTime:0.0312s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869c85fce334100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' [ RunTime:0.0156s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 0 [ RunTime:0.0156s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 3 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 4 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 5 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 6 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 7 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 8 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 9 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 10 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 11 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 12 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 13 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 14 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 15 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 16 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 17 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 18 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 19 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 20 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 21 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 22 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 23 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 24 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 25 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 26 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 27 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 28 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 29 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 30 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 31 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 32 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 33 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 34 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 35 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 36 [ RunTime:0.0156s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 37 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 38 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 39 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 40 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 41 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 42 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 43 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 44 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 45 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 46 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 47 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 48 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 50 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 51 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 52 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 53 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='G' WHERE `name` = 54 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 55 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 56 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 57 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 58 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 59 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 60 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 61 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 62 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 63 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 64 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 65 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 66 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 67 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 68 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 69 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 70 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 71 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 72 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 73 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 74 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 75 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 76 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 77 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 78 [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T11:31:23+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T11:31:45+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor() expects parameter 1 to be long, string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, null given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, null given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T11:33:15+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor() expects parameter 1 to be long, string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, null given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, null given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T11:45:21+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T11:46:51+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T11:56:11+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T11:57:35+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-02T11:57:39+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-02T11:58:07+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-02T11:58:08+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-02T11:58:17+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Up/other
+ERR: 非法操作:other
+
+[ 2017-01-02T11:58:48+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-02T11:58:50+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-02T11:59:32+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-02T12:00:02+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-02T12:00:03+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-01-02T12:00:26+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 41 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:01:59+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T12:03:48+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 41 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:24:11+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T12:25:29+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:26:00+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:26:11+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:26:35+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:27:05+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 'WEB_IS_PICMARK' [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' [ RunTime:0.1300s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869d67bc8114100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' [ RunTime:0.0900s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 0 [ RunTime:0.1300s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 2 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 3 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 4 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 5 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 6 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 7 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 8 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 9 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 10 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 11 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 12 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 13 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 14 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 15 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 16 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 17 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 18 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 19 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 20 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 21 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 22 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 23 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 24 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 25 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 26 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 27 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 28 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 29 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 30 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 31 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 32 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 33 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 34 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 35 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 36 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 37 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 38 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 39 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 40 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 41 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 42 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 43 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 44 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 45 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 46 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 47 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 48 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 49 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 50 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 51 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 52 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 53 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='G' WHERE `name` = 54 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 55 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 56 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 57 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 58 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 59 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 60 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 61 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 62 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 63 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 64 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 65 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 66 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 67 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 68 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 69 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 70 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 71 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 72 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 73 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 74 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 75 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 76 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 77 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 78 [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 36 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:30:43+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T12:32:31+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T12:33:26+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T12:34:11+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:34:25+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T12:34:36+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:34:50+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:34:51+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:36:11+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:36:18+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T12:36:21+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:37:43+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:37:44+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:37:44+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:38:56+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.0400s ]
+SQL: UPDATE `gms_config` SET `value`='' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 0 AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 1 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 2 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 3 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 4 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 5 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 6 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='L' WHERE `name` = 7 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 8 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 9 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 10 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 11 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 12 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 13 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 14 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 15 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 16 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 17 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='Y' WHERE `name` = 18 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 19 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 20 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 21 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 22 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 23 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 24 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 25 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 26 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 27 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 28 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 29 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 30 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 31 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 32 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 33 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 34 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 35 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 36 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 37 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 38 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 39 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 40 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 41 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 42 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 43 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 44 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 45 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 46 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 47 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 48 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 49 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 50 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='N' WHERE `name` = 51 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 52 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 53 AND `type` = 1 [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:40:10+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T12:40:13+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T12:40:54+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T12:40:56+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T12:40:57+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:41:31+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:41:34+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0030s ]
+
+[ 2017-01-02T12:41:36+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T12:41:37+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T12:41:38+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:42:04+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T12:42:05+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:42:06+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:43:21+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:44:48+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:45:59+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:46:35+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T12:46:37+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:46:39+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:46:41+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T12:48:11+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T12:48:17+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 'WEB_IS_PICMARK' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' AND `type` = 2 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869db8bc6848100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 0 AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 1 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 2 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 3 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 4 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 5 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 6 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 7 AND `type` = 2 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 8 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 9 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 10 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 11 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 12 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 13 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 14 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 15 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 16 AND `type` = 2 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 17 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 18 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 19 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 20 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 21 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 22 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 23 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 24 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 25 AND `type` = 2 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 26 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 27 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 28 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 29 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 30 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 31 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 32 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 33 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 34 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 35 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 36 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 37 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 38 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 39 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 40 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 41 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 42 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 43 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 44 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 45 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 46 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 47 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 48 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 49 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 50 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 51 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 52 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 53 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='G' WHERE `name` = 54 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 55 AND `type` = 2 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 56 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 57 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 58 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 59 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 60 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 61 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 62 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 63 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 64 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 65 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 66 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 67 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 68 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='M' WHERE `name` = 69 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 70 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 71 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 72 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 73 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 74 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='A' WHERE `name` = 75 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 76 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='H' WHERE `name` = 77 AND `type` = 2 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 78 AND `type` = 2 [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T13:37:24+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 0 AND `type` = 1 [ RunTime:0.2300s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 1 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 2 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 3 AND `type` = 1 [ RunTime:0.0110s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 4 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 5 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 6 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='L' WHERE `name` = 7 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 8 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 9 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 10 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 11 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 12 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 13 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 14 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 15 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 16 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 17 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='Y' WHERE `name` = 18 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 19 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 20 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 21 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 22 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 23 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 24 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 25 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 26 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 27 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 28 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 29 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 30 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 31 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 32 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 33 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 34 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 35 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 36 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 37 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 38 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 39 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 40 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 41 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 42 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 43 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 44 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 45 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 46 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 47 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 48 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 49 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 50 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='N' WHERE `name` = 51 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 52 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 53 AND `type` = 1 [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T13:38:26+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.1600s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.0400s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='test' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 0 AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 1 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 2 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 3 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 4 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 5 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 6 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='L' WHERE `name` = 7 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 8 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 9 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 10 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 11 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 12 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 13 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 14 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 15 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 16 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 17 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='Y' WHERE `name` = 18 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 19 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 20 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 21 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 22 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 23 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 24 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 25 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 26 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 27 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 28 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 29 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 30 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 31 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 32 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 33 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 34 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 35 AND `type` = 1 [ RunTime:0.0020s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 36 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 37 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 38 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 39 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 40 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 41 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 42 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 43 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 44 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 45 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 46 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 47 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 48 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 49 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 50 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='N' WHERE `name` = 51 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 52 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 53 AND `type` = 1 [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T13:50:35+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.0600s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.1000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.1100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 0 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 1 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 2 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 3 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 4 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 5 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 6 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='L' WHERE `name` = 7 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 8 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 9 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 10 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 11 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 12 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 13 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 14 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 15 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 16 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 17 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='Y' WHERE `name` = 18 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 19 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 20 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 21 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 22 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 23 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 24 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 25 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 26 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 27 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 28 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 29 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 30 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 31 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 32 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 33 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 34 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 35 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 36 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 37 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 38 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 39 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 40 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 41 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 42 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 43 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 44 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 45 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 46 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 47 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 48 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 49 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 50 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='N' WHERE `name` = 51 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 52 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 53 AND `type` = 1 [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T13:53:20+08:00 ] ::1 /excavator/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`username`,`userpass` FROM `gms_manage` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\LoginController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T13:54:45+08:00 ] ::1 /excavator/index.php?s=/Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.1100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.0900s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='test' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 0 AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 1 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 2 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 3 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 4 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 5 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 6 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='L' WHERE `name` = 7 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 8 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 9 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 10 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 11 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 12 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 13 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 14 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 15 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 16 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 17 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='Y' WHERE `name` = 18 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 19 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 20 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 21 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 22 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 23 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 24 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 25 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 26 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 27 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 28 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 29 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 30 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 31 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 32 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 33 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 34 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 35 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 36 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 37 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 38 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 39 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 40 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 41 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 42 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 43 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 44 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 45 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 46 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 47 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 48 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 49 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 50 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='N' WHERE `name` = 51 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 52 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 53 AND `type` = 1 [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T13:55:47+08:00 ] ::1 /excavator/index.php?s=/Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0130s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.0360s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='test' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 0 AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 1 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 2 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 3 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 4 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 5 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 6 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='L' WHERE `name` = 7 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 8 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 9 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 10 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 11 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 12 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 13 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 14 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 15 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 16 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 17 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='Y' WHERE `name` = 18 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 19 AND `type` = 1 [ RunTime:0.0020s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 20 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 21 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 22 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 23 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 24 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 25 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 26 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 27 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 28 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 29 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 30 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 31 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 32 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 33 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 34 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 35 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 36 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 37 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 38 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 39 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 40 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 41 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 42 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 43 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 44 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 45 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 46 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 47 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 48 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 49 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 50 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='N' WHERE `name` = 51 AND `type` = 1 [ RunTime:0.0010s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 52 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 53 AND `type` = 1 [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T13:56:01+08:00 ] ::1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.0400s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='test' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 0 AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 1 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 2 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 3 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 4 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 5 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 6 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='L' WHERE `name` = 7 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 8 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 9 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 10 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 11 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 12 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 13 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 14 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 15 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='K' WHERE `name` = 16 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 17 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='Y' WHERE `name` = 18 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 19 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 20 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 21 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 22 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 23 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 24 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 25 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 26 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 27 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 28 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 29 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 30 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 31 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 32 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 33 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 34 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 35 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='&amp;' WHERE `name` = 36 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 37 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 38 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='B' WHERE `name` = 39 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='_' WHERE `name` = 40 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='D' WHERE `name` = 41 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='E' WHERE `name` = 42 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='S' WHERE `name` = 43 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='C' WHERE `name` = 44 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='R' WHERE `name` = 45 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 46 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='P' WHERE `name` = 47 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='T' WHERE `name` = 48 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='I' WHERE `name` = 49 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='O' WHERE `name` = 50 AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='N' WHERE `name` = 51 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='=' WHERE `name` = 52 AND `type` = 1 [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 53 AND `type` = 1 [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T13:58:22+08:00 ] ::1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T14:13:28+08:00 ] ::1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T14:15:01+08:00 ] ::1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0050s ]
+
+[ 2017-01-02T14:16:01+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T14:16:14+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T14:16:23+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+
+[ 2017-01-02T14:16:42+08:00 ] ::1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+
+[ 2017-01-02T14:17:03+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='test' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0300s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:17:22+08:00 ] ::1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.1200s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='test2' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:17:41+08:00 ] ::1 /excavator/index.php?s=Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.0400s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.0210s ]
+SQL: UPDATE `gms_config` SET `value`='W' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='test' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0300s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:18:21+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 39 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 39 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 256 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:18:25+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 39 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 39 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 256 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:18:50+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T14:19:21+08:00 ] ::1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:19:28+08:00 ] ::1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 'WEB_IS_PICMARK' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869f0e932a35100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' AND `type` = 2 [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:19:35+08:00 ] ::1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0080s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 'WEB_IS_PICMARK' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869f0e932a35100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' AND `type` = 2 [ RunTime:0.0200s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:20:35+08:00 ] ::1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T14:21:03+08:00 ] ::1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0100s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:21:59+08:00 ] ::1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:23:00+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:23:17+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:23:23+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 'WEB_IS_PICMARK' AND `type` = 2 [ RunTime:0.1100s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' AND `type` = 2 [ RunTime:0.0700s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869f1d5d4435100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' AND `type` = 2 [ RunTime:0.0200s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:25:42+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T14:26:51+08:00 ] ::1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:29:19+08:00 ] ::1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:29:48+08:00 ] ::1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:29:52+08:00 ] ::1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0120s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0050s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 'WEB_IS_PICMARK' AND `type` = 2 [ RunTime:0.0500s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869f35cd5f7d100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' AND `type` = 2 [ RunTime:0.0310s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:31:07+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T14:31:36+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:31:48+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:32:01+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 'WEB_IS_PICMARK' AND `type` = 2 [ RunTime:0.0410s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869f3d4298ee100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' AND `type` = 2 [ RunTime:0.0300s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:34:00+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T14:34:42+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:34:46+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 'WEB_IS_PICMARK' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' AND `type` = 2 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869f48209839100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' AND `type` = 2 [ RunTime:0.0200s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:38:19+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 218 行.
+NOTIC: [2] Division by zero D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 219 行.
+NOTIC: [2] imagecreatetruecolor(): Invalid image dimensions D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 166 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 168 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 169 行.
+NOTIC: [2] imagecopyresampled() expects parameter 1 to be resource, boolean given D:\wamp\www\excavator\ThinkPHP\Library\Think\Image\Driver\Gd.class.php 第 172 行.
+ERR: 没有可以被保存的图像资源
+
+[ 2017-01-02T14:40:02+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:40:11+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='0' WHERE `name` = 'WEB_IS_PICMARK' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' AND `type` = 2 [ RunTime:0.0400s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869f5c2a0133100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' AND `type` = 2 [ RunTime:0.0200s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:44:02+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 'WEB_IS_PICMARK' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' AND `type` = 2 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869f5c2a0133100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' AND `type` = 2 [ RunTime:0.0200s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:44:35+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Up/mark
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Up/mark' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\excavator\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: SELECT `name`,`value` FROM `gms_config` WHERE `type` = 2  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\UpController.class.php on line 37 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:44:49+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Config/other
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/other' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='1' WHERE `name` = 'WEB_IS_PICMARK' AND `type` = 2 [ RunTime:0.0400s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_WIDTH' AND `type` = 2 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='100' WHERE `name` = 'WEB_PICMARK_HEIGHT' AND `type` = 2 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='/excavator/Uploads/images/20170102/5869f6d34bb89100x100_thumb.jpg' WHERE `name` = 'WEB_PICMARK_PATH' AND `type` = 2 [ RunTime:0.0100s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 38 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T14:46:51+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='title' WHERE `name` = 'WEB_TITLE' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='keywords' WHERE `name` = 'WEB_KEYWORDS' AND `type` = 1 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='icp' WHERE `name` = 'WEB_ICP' AND `type` = 1 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='description' WHERE `name` = 'WEB_DESCRIPTION' AND `type` = 1 [ RunTime:0.0200s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 19 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:06:08+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/wechat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/wechat' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='token' WHERE `name` = 'WECHAT_TOKEN' AND `type` = 3 [ RunTime:0.0400s ]
+SQL: UPDATE `gms_config` SET `value`='appid' WHERE `name` = 'WECHAT_APPID' AND `type` = 3 [ RunTime:0.0300s ]
+SQL: UPDATE `gms_config` SET `value`='appsecret' WHERE `name` = 'WECHAT_APPSECRET' AND `type` = 3 [ RunTime:0.0300s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 55 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:13:50+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/wechat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Config/wechat' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_config` [ RunTime:0.0000s ]
+SQL: UPDATE `gms_config` SET `value`='token' WHERE `name` = 'WECHAT_TOKEN' AND `type` = 3 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='appid' WHERE `name` = 'WECHAT_APPID' AND `type` = 3 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='appsecret' WHERE `name` = 'WECHAT_APPSECRET' AND `type` = 3 [ RunTime:0.0200s ]
+SQL: UPDATE `gms_config` SET `value`='paysignkey' WHERE `name` = 'WECHAT_PAYSIGNKEY' AND `type` = 3 [ RunTime:0.0100s ]
+SQL: UPDATE `gms_config` SET `value`='partnerkey' WHERE `name` = 'WECHAT_PARTNERKEY' AND `type` = 3 [ RunTime:0.0200s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ConfigController.class.php on line 55 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:15:28+08:00 ] 127.0.0.1 /excavator/Admin/Brand/getBrand
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Brand/getBrand' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_brand` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_category` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `gms_brand` WHERE `cateid` = 3  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\BrandController.class.php on line 125 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:15:28+08:00 ] 127.0.0.1 /excavator/Admin/Attr/getAttr
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034002s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Attr/getAttr' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_attr` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `gms_category` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_attr_type` [ RunTime:0.0230s ]
+SQL: SELECT `id`,`name`,`type`,`value` FROM `gms_attr` WHERE `cateid` = 3  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\AttrController.class.php on line 123 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+

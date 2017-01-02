@@ -91,6 +91,22 @@ class BaseController extends Controller{
     }
 
     /**
+     * 获取水印图片信息
+     * @return array
+     */
+    public function getMarkInfo(){
+        $memcache=self::getMemcache();
+        $markInfo=$memcache->get('markInfo');
+        if($markInfo != ''){
+            return json_decode($markInfo,true);
+        }
+        $config=D('Config');
+        $list=$config->field('name,value')->where(array('type'=>2))->select();
+        $markInfo=array_column($list,'value','name');
+        $memcache->set('markInfo',json_encode($markInfo));
+        return $markInfo;
+    }
+    /**
      * 返回Memcache连接对象
      */
     public function getMemcache(){

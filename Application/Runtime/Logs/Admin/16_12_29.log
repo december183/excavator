@@ -3756,3 +3756,6 @@ NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wa
 NOTIC: [8] Undefined variable: data D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 256 行.
 NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
 
+[ 2016-12-29T17:05:58+08:00 ] 127.0.0.1 /excavator/index.php?s=/Admin/Config/index
+ERR: 无法加载控制器:Config
+

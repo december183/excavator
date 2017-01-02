@@ -6,9 +6,12 @@ class IndexController extends BaseController {
         /*$memcache=self::getMemcache();
         $cateList=$memcache->get('cateList');
         $cateActive=$memcache->get('cateActive');
+        $markInfo=$memcache->get('markInfo');
         print_r(json_decode($cateList,true));
         echo '<br/><hr/>';
         print_r(json_decode($cateActive,true));
+        echo '<br/><hr/>';
+        print_r(json_decode($markInfo,true));
         exit();*/
         $this->display();
     }

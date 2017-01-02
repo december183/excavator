@@ -1,0 +1,137 @@
+<extend name="Public/base" />
+<block name="title"><title>微信配置-系统配置</title></block>
+<block name="content">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/js/fuelux/fuelux.css" type="text/css" cache="false" />
+    <!--kindeditor-->
+    <script charset="utf-8" src="__PLUGINS__/kindeditor/kindeditor-min.js"></script>
+    <script charset="utf-8" src="__PLUGINS__/kindeditor/lang/zh_CN.js"></script>
+    <!-- jQuery -->
+    <script src="__PUBLIC__/Admin/js/jquery.min.js"></script>
+    <!-- jQuery.form.js -->
+    <script src="__PUBLIC__/Admin/js/jquery.form.js"></script>
+
+    <section id="content">
+        <section class="vbox">
+            <section class="scrollable padder">
+                <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+                    <li><a href="__MODULE__/Index/index.html"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="__CONTROLLER__/index">基础配置</a></li>
+                    <li><a href="__CONTROLLER__/wechat">微信配置</a></li>
+                    <li><a href="__CONTROLLER__/other">其他配置</a></li>
+                </ul>
+                <div class="m-b-md">
+                    <h3 class="m-b-none">微信配置</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <section class="panel panel-default">
+                            <header class="panel-heading font-bold">微信配置</header>
+                            <div class="panel-body">
+                                <form class="bs-example form-horizontal" id="ajaxForm" action="__CONTROLLER__/wechat">
+                                    <volist name="configlist" id="vo">
+                                        <switch name="vo['fieldtype']">
+                                            <case value="0">
+                                                <div class="form-group">
+                                                    <label class="col-lg-2 control-label">{$vo.title}</label>
+                                                    <div class="col-lg-6">
+                                                        <input type="number" class="form-control" name="{$vo.name}" placeholder="{$vo.title}" value="{$vo.value}">
+                                                    </div>
+                                                    <div class="col-lg-4"></div>
+                                                </div>
+                                            </case>
+                                            <!--字符串-->
+                                            <case value="1">
+                                                <div class="form-group">
+                                                    <label class="col-lg-2 control-label">{$vo.title}</label>
+                                                    <div class="col-lg-6">
+                                                        <input type="text" class="form-control" name="{$vo.name}" placeholder="{$vo.title}" value="{$vo.value}">
+                                                    </div>
+                                                    <div class="col-lg-4"></div>
+                                                </div>
+                                            </case>
+                                            <!--文本-->
+                                            <case value="2">
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">{$vo.title}</label>
+                                                    <div class="col-sm-6">
+                                                        <textarea class="form-control" name="{$vo.name}" rows="5" data-minwords="6" data-required="true" placeholder="{$vo.title}">{$vo.value}</textarea>
+                                                    </div>
+                                                    <div class="col-lg-4"></div>
+                                                </div>
+                                            </case>
+                                            <!--枚举-->
+                                            <case value="3">
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">{$vo.title}</label>
+                                                    <div class="col-sm-6">
+                                                        <!-- radio -->
+                                                        <div class="radio-inline pad-lf-none">
+                                                            <label class="radio-custom margin-lf-none">
+                                                                <input type="radio" name="{$vo.name}" value="1" <if condition="$vo['value'] eq 1">checked="checked"</if>>
+                                                                <i class="fa fa-circle-o"></i> 是 </label>
+                                                        </div>
+                                                        <div class="radio-inline pad-lf-none">
+                                                            <label class="radio-custom margin-lf-none">
+                                                                <input type="radio" name="{$vo.name}" value="0" <if condition="$vo['value'] eq 0">checked="checked"</if>>
+                                                                <i class="fa fa-circle-o"></i> 否 </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4"></div>
+                                                </div>
+                                            </case>
+                                            <!--编辑器-->
+                                            <case value="4">
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">{$vo.title}</label>
+                                                    <div class="col-sm-6">
+                                                        <textarea class="form-control" name="{$vo.name}" id="editor">{$vo.value}</textarea>
+                                                    </div>
+                                                    <div class="col-lg-4"></div>
+                                                </div>
+                                            </case>
+                                            <!--默认-->
+                                            <default />
+                                            <div class="form-group">
+                                                <label class="col-lg-2 control-label">{$vo.title}</label>
+                                                <div class="col-lg-6">
+                                                    <input type="text" class="form-control" name="{$vo.name}" placeholder="{$vo.title}" value="{$vo.value}">
+                                                </div>
+                                                <div class="col-lg-4"></div>
+                                            </div>
+                                        </switch>
+                                    </volist>
+                                    <div class="form-group">
+                                        <div class="col-lg-offset-2 col-lg-10">
+                                            <button type="submit" class="btn btn-sm btn-default">修改配置</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
+    </section>
+    <script type="text/javascript">
+        KindEditor.ready(function(K){
+            var opts={
+                uploadJson : '__PLUGINS__/kindeditor/php/upload_json.php',
+                fileManagerJson : '__PLUGINS__/kindeditor/php/file_manager_json.php',
+                allowFileManager : true,
+                height : 'auto',
+                minHeight: '200',
+                width : '100%',
+                afterBlur:function(){this.sync();}
+            };
+            var editor = K.create('textarea[name="content"]', opts);
+        });
+    </script>
+    <!-- fuelux -->
+    <script src="__PUBLIC__/Admin/js/fuelux/fuelux.js" cache="false"></script>
+    <!-- Bootstrap -->
+    <script src="__PUBLIC__/Admin/js/file-input/bootstrap-filestyle.min.js" cache="false"></script>
+    <script src="__PUBLIC__/Admin/js/config/index.js"></script>
+</block>
+

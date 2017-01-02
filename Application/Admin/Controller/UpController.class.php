@@ -27,4 +27,19 @@ class UpController extends BaseController{
             $this->display();
         }
     }
+    public function mark(){
+        if(IS_POST){
+            if(isset($_FILES['pic']['tmp_name'])) {
+                $info = self::upOne();
+                $path = APP_ROOT . '/Uploads/images/' . $info['savepath'] . $info['savename'];
+                $markInfo = self::getMarkInfo();
+                $markpath = $this->thumb($path, $markInfo['WEB_PICMARK_WIDTH'], $markInfo['WEB_PICMARK_HEIGHT']);
+                $this->apiReturn(200, '上传水印图片成功', array('path' => $markpath));
+            }else{
+                $this->apiReturn(404,'请选择水印图片');
+            }
+        }else{
+            $this->display();
+        }
+    }
 }
