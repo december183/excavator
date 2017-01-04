@@ -2234,3 +2234,141 @@ SQL: SELECT `id`,`name`,`type`,`value` FROM `gms_attr` WHERE `cateid` = 3  [ Run
 NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\AttrController.class.php on line 123 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
 NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
 
+[ 2017-01-02T15:20:04+08:00 ] 127.0.0.1 /excavator/Admin/AdverType/getTypeInfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'AdverType/getTypeInfo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_adver_type` [ RunTime:0.0040s ]
+SQL: SELECT `width`,`height` FROM `gms_adver_type` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\AdverTypeController.class.php on line 86 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\AdverTypeController.class.php on line 86 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 256 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:20:33+08:00 ] 127.0.0.1 /excavator/Admin/Manage/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Manage/ajaxSearch' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php 第 145 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gms_manage` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php 第 148 行.
+SQL: SELECT a.id,a.username,a.email,a.phone,a.avatar,a.remark,a.status,a.date,b.name AS groupname FROM gms_manage a INNER JOIN gms_group AS b ON a.groupid=b.id  ORDER BY a.date DESC LIMIT 2,2   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php on line 150 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:20:34+08:00 ] 127.0.0.1 /excavator/Admin/Manage/ajaxSearch?keywords=&p=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Manage/ajaxSearch' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php 第 145 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gms_manage` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php 第 148 行.
+SQL: SELECT a.id,a.username,a.email,a.phone,a.avatar,a.remark,a.status,a.date,b.name AS groupname FROM gms_manage a INNER JOIN gms_group AS b ON a.groupid=b.id  ORDER BY a.date DESC LIMIT 0,2   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php on line 150 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:20:37+08:00 ] 127.0.0.1 /excavator/Admin/Manage/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Manage/ajaxSearch' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php 第 145 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gms_manage` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php 第 148 行.
+SQL: SELECT a.id,a.username,a.email,a.phone,a.avatar,a.remark,a.status,a.date,b.name AS groupname FROM gms_manage a INNER JOIN gms_group AS b ON a.groupid=b.id  ORDER BY a.date DESC LIMIT 2,2   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php on line 150 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:20:39+08:00 ] 127.0.0.1 /excavator/Admin/Manage/ajaxSearch?keywords=&p=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Manage/ajaxSearch' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php 第 145 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gms_manage` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php 第 148 行.
+SQL: SELECT a.id,a.username,a.email,a.phone,a.avatar,a.remark,a.status,a.date,b.name AS groupname FROM gms_manage a INNER JOIN gms_group AS b ON a.groupid=b.id  ORDER BY a.date DESC LIMIT 0,2   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\ManageController.class.php on line 150 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:20:46+08:00 ] 127.0.0.1 /excavator/Admin/Group/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Group/ajaxSearch' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php 第 117 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gms_group` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php 第 120 行.
+SQL: SELECT * FROM `gms_group` LIMIT 2,2   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php on line 122 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:20:49+08:00 ] 127.0.0.1 /excavator/Admin/Group/ajaxSearch?keywords=&p=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Group/ajaxSearch' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php 第 117 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gms_group` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php 第 120 行.
+SQL: SELECT * FROM `gms_group` LIMIT 0,2   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php on line 122 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T15:20:59+08:00 ] 127.0.0.1 /excavator/index.php?s=Admin/Goods/edit/id/2
+ERR: 非法操作:edit
+
+[ 2017-01-02T16:07:02+08:00 ] 127.0.0.1 /excavator/Admin/Group/ajaxSearch?keywords=&p=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Group/ajaxSearch' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gms_group` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php 第 139 行.
+SQL: SELECT * FROM `gms_group` LIMIT 2,2   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php on line 141 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+
+[ 2017-01-02T16:07:04+08:00 ] 127.0.0.1 /excavator/Admin/Group/ajaxSearch?keywords=&p=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `gms_manage` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_group` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `gms_auth` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid` FROM `gms_auth` WHERE `action` = 'Group/ajaxSearch' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php 第 136 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `gms_group` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php 第 139 行.
+SQL: SELECT * FROM `gms_group` LIMIT 0,2   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 4 for Think\Controller::apiReturn(), called in D:\wamp\www\excavator\Application\Admin\Controller\GroupController.class.php on line 141 and defined D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 244 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\excavator\ThinkPHP\Library\Think\Controller.class.php 第 258 行.
+

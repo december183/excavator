@@ -119,8 +119,8 @@ class BrandController extends BaseController{
         }
     }
     public function getBrand(){
-        $data['cateid']=I('param.cateid');
-        $brandlist=$this->brand->field('id,name')->where($data)->select();
+        $cateid=I('param.cateid');
+        $brandlist=$this->brand->getBrandInfo($cateid,$this->cate);
         if($brandlist){
             $this->apiReturn(200,'获取品牌信息成功',$brandlist);
         }else{

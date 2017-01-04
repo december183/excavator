@@ -24,4 +24,26 @@ class GroupModel extends Model{
         }
         return true;
     }
+
+    /**
+     * 检查新增用户的合法性
+     * @param $groupId 新增用户所在组ID
+     * @param $curGroupId 当前登录用户所在组ID
+     * @return bool
+     */
+    public function checkAuth($groupid){
+        $oneGroup=$this->field('auth')->where(array('id'=>$groupid))->find();
+        $curGroup=$this->field('auth')->where(array('id'=>session('user.groupid')))->find();
+        return strpos($curGroup['auth'],$oneGroup['auth']) === false ? true : false;
+    }
+
+    /**
+     * 检查新增用户组的合法性
+     * @param $auth 新增用户组的权限
+     * @return bool
+     */
+    public function checkGroupAuth($auth){
+        $curGroup=$this->field('auth')->where(array('id'=>session('user.groupid')))->find();
+        return strpos($curGroup['auth'],$auth) === false ? true : false;
+    }
 }

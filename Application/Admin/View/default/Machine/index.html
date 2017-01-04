@@ -1,0 +1,97 @@
+<extend name="Public/base" />
+<block name="title"><title>机型列表-机型管理</title></block>
+<block name="content">
+    <!-- jQuery -->
+    <script src="__PUBLIC__/Admin/js/jquery.min.js"></script>
+    <!-- jQuery.form.js -->
+    <script src="__PUBLIC__/Admin/js/jquery.form.js"></script>
+
+    <section class="vbox">
+        <section class="scrollable padder">
+            <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+                <li><a href="__MODULE__/Index/index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="__CONTROLLER__/index">机型列表</a></li>
+                <li><a href="__CONTROLLER__/add">新增机型</a></li>
+            </ul>
+            <div class="m-b-md">
+                <h3 class="m-b-none">机型列表</h3>
+            </div>
+            <section class="panel panel-default">
+                <header class="panel-heading"> 机型列表 </header>
+                <form id="ajaxForm" action="__CONTROLLER__/index">
+                    <div class="row text-sm wrapper">
+                        <div class="col-sm-5 m-b-xs">
+                            <select class="input-sm form-control input-s-sm inline" name="action">
+                                <option value="0">批量操作</option>
+                                <option value="1">删除选中</option>
+                            </select>
+                            <button class="btn btn-sm btn-default" type="submit">提交</button>
+                        </div>
+                        <div class="col-sm-3 m-b-xs">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <select name="cateid" id="cateid" class="input-sm form-control input-s-sm inline">
+                                        <option value="0">机器分类</option>
+                                        <volist name="catelist" id="vo">
+                                            <option value="{$vo.id}">{$vo.name}</option>
+                                        </volist>
+                                    </select>
+                                </div>
+                                <div class="col-sm-6">
+                                    <select name="brand" id="brandid" class="input-sm form-control input-s-sm inline">
+                                        <option value="0">选择相关品牌</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="input-group">
+                                <input type="text" name="keywords" id="keywords" class="input-sm form-control" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-sm btn-default" id="searchbtn" type="button">提交</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped b-t b-light text-sm" id="table-info">
+                            <thead>
+                            <tr>
+                                <th width="20"><input type="checkbox"></th>
+                                <th class="th-sortable" data-toggle="class"> 机型图片 <span class="th-sort"> <i class="fa fa-sort-down text"></i> <i class="fa fa-sort-up text-active"></i> <i class="fa fa-sort"></i> </span> </th>
+                                <th>机器型号</th>
+                                <th>所属类别</th>
+                                <th>所属品牌</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="machinelist" id="vo">
+                                <tr>
+                                    <td><input type="checkbox" name="ids[]" value="{$vo.id}"></td>
+                                    <td><a href="#" class="pull-left thumb-sm"><img src="{$vo.thumbpic}" class="img-rounded"></a></td>
+                                    <td>{$vo.machineno}</td>
+                                    <td>{$vo.catename}</td>
+                                    <td>{$vo.brandname}</td>
+                                    <td><a href="__CONTROLLER__/edit/id/{$vo.id}" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel({$vo.id},this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div>
+                </form>
+                <footer class="panel-footer">
+                    <div class="row">
+                        <div class="col-sm-5 hidden-xs"></div>
+                        <div class="col-sm-4 text-center-xs" id="page">
+                            <ul class="pagination pagination-sm m-t-none m-b-none">
+                                {$page}
+                            </ul>
+                        </div>
+                        <div class="col-sm-3 text-right text-center-xs"></div>
+                    </div>
+                </footer>
+            </section>
+        </section>
+        <script src="__PUBLIC__/Admin/js/machine/index.js"></script>
+</block>

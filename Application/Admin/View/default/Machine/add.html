@@ -1,0 +1,79 @@
+<extend name="Public/base" />
+<block name="title"><title>添加机型-机型管理</title></block>
+<block name="content">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/js/fuelux/fuelux.css" type="text/css" cache="false" />
+    <!-- jQuery -->
+    <script src="__PUBLIC__/Admin/js/jquery.min.js"></script>
+    <!-- jQuery.form.js -->
+    <script src="__PUBLIC__/Admin/js/jquery.form.js"></script>
+
+    <section id="content">
+        <section class="vbox">
+            <section class="scrollable padder">
+                <ul class="breadcrumb no-border no-radius b-b b-light pull-in">
+                    <li><a href="__MODULE__/Index/index.html"><i class="fa fa-home"></i> Home</a></li>
+                    <li><a href="__CONTROLLER__/index">机型列表</a></li>
+                    <li><a href="__CONTROLLER__/add">新增机型</a></li>
+                </ul>
+                <div class="m-b-md">
+                    <h3 class="m-b-none">添加机型</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <section class="panel panel-default">
+                            <header class="panel-heading font-bold">添加机型</header>
+                            <div class="panel-body">
+                                <form class="bs-example form-horizontal" id="ajaxForm" action="__CONTROLLER__/add">
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">机器型号</label>
+                                        <div class="col-lg-10">
+                                            <input type="text" class="form-control" name="machineno" placeholder="Machineno">
+                                            <span class="help-block m-b-none">机器型号不能小于2位.</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">机器分类</label>
+                                        <div class="col-lg-10">
+                                            <select name="cateid" id="cateid" class="form-control m-b">
+                                                <option value="0">请选择机器分类</option>
+                                                <volist name="catelist" id="vo">
+                                                    <option value="{$vo.id}">{$vo.name}</option>
+                                                </volist>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-lg-2 control-label">相关品牌</label>
+                                        <div class="col-lg-10">
+                                            <select name="brand" id="brandid" class="form-control m-b">
+                                                <option value="0">选择相关品牌</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">机型图片</label>
+                                        <div class="col-sm-10">
+                                            <input type="file" name="pic" class="filestyle" data-icon="false" data-classButton="btn btn-default" data-classInput="form-control inline input-s">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-lg-offset-2 col-lg-10">
+                                            <button type="submit" class="btn btn-sm btn-default">添加机型</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-sm-6"></div>
+                </div>
+            </section>
+        </section>
+        <a href="#" class="hide nav-off-screen-block" data-toggle="class:nav-off-screen" data-target="#nav"></a>
+    </section>
+    <!-- fuelux -->
+    <script src="__PUBLIC__/Admin/js/fuelux/fuelux.js" cache="false"></script>
+    <!-- Bootstrap -->
+    <script src="__PUBLIC__/Admin/js/file-input/bootstrap-filestyle.min.js" cache="false"></script>
+    <script src="__PUBLIC__/Admin/js/machine/index.js"></script>
+</block>

@@ -32,5 +32,23 @@ class BrandModel extends Model{
         $res=$this->query("SHOW TABLE STATUS LIKE 'gms_brand'");
         return $res[0]['auto_increment'];
     }
+    /**
+     * 查找当前分类下的关联品牌信息，有则返回，若没有，则查询上一级分类的关联品牌信息，有则返回，没有则继续查询上一级分类，直至顶级分类，返回false
+     * @param $cateid
+     * @return bool
+     */
+    public function getBrandInfo($cateid,$model){
+        $brandlist=$this->field('id,name')->where(array('cateid'=>$cateid))->select();
+        if($brandlist){
+            return $brandlist;
+        }else{
+            $oneCate=$model->field('pid')->where(array('id'=>$cateid))->find();
+            if($oneCate['pid'] != 0){
+                return self::getBrandInfo($oneCate['pid'],$model);
+            }else{
+                return false;
+            }
+        }
+    }
 
 }

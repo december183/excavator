@@ -245,7 +245,7 @@
                                 <th width="20"><input type="checkbox"></th>
                                 <th class="th-sortable" data-toggle="class">图标 <span class="th-sort"> <i class="fa fa-sort-down text"></i> <i class="fa fa-sort-up text-active"></i> <i class="fa fa-sort"></i> </span> </th>
                                 <th>名称</th>
-                                <th>简介</th>
+                                <th width="50%">简介</th>
                                 <th>排序</th>
                                 <th>状态</th>
                                 <th>操作</th>
@@ -257,7 +257,7 @@
                                         <td><input type="checkbox" name="ids[]" value="<?php echo ($vo["id"]); ?>"></td>
                                         <td><a href="#" class="pull-left thumb-sm"><img src="<?php echo ($vo["thumb"]); ?>" class="img-rounded"></a></td>
                                         <td><?php echo ($vo["name"]); ?></td>
-                                        <td><?php echo ($vo["descript"]); ?></td>
+                                        <td><span style="display:inline-block;word-break: break-all;"><?php echo ($vo["descript"]); ?></span></td>
                                         <td><input type="text" name="sort[<?php echo ($vo["id"]); ?>]" class="form-control short" value="<?php echo ($vo["sort"]); ?>" onblur="setSort(<?php echo ($vo["id"]); ?>,this);"></td>
                                         <td><?php if($vo['status'] == 1): ?><a href="#" onclick="setStatus(<?php echo ($vo["id"]); ?>,this)">已启用</a><?php else: ?><a href="#" onclick="setStatus(<?php echo ($vo["id"]); ?>,this)">已禁用</a><?php endif; ?></td>
                                         <td><a href="/excavator/index.php?s=/Admin/Category/edit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel(<?php echo ($vo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>
@@ -267,7 +267,7 @@
                                             <td><input type="checkbox" name="ids[]" value="<?php echo ($voo["id"]); ?>"></td>
                                             <td><a href="#" class="pull-left thumb-sm"><img src="<?php echo ($voo["thumb"]); ?>" class="img-rounded"></a></td>
                                             <td><span class="pad-lf-level<?php echo ($voo["level"]); ?>"><?php echo ($voo["name"]); ?></span></td>
-                                            <td><?php echo ($voo["descript"]); ?></td>
+                                            <td><span style="display:inline-block;word-break: break-all;"><?php echo ($voo["descript"]); ?></span></td>
                                             <td><input type="text" name="sort[<?php echo ($voo["id"]); ?>]" class="form-control short" value="<?php echo ($voo["sort"]); ?>" onblur="setSort(<?php echo ($voo["id"]); ?>,this);"></td>
                                             <td><?php if($voo['status'] == 1): ?><a href="#" onclick="setStatus(<?php echo ($voo["id"]); ?>,this)">已启用</a><?php else: ?><a href="#" onclick="setStatus(<?php echo ($voo["id"]); ?>,this)">已禁用</a><?php endif; ?></td>
                                             <td><a href="/excavator/index.php?s=/Admin/Category/edit/id/<?php echo ($voo["id"]); ?>" title="编辑"><i class="fa fa-edit text-success text"></i></a>　<a onclick="return ajaxDel(<?php echo ($voo["id"]); ?>,this);" data-toggle="class" title="删除"><i class="fa fa-times text-danger text"></i></a></td>

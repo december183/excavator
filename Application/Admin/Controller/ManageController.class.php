@@ -33,6 +33,9 @@ class ManageController extends BaseController{
     public function add(){
         if(IS_POST){
             $data=I('param.');
+            if($this->group->checkAuth($data['groupid'])){
+                $this->apiReturn(403,'权限不足,不能添加大于自身权限的用户');
+            }
             if(isset($_FILES['pic']['tmp_name'])){
                 $info=$this->upOne();
                 $path=APP_ROOT.'/Uploads/images/'.$info['savepath'].$info['savename'];
@@ -58,6 +61,9 @@ class ManageController extends BaseController{
             $data=I('param.');
             if(!$this->manage->checkName($data['id'],$data['username'])){
                 $this->apiReturn(403,'管理员名称不能重复');
+            }
+            if($this->group->checkAuth($data['groupid'])){
+                $this->apiReturn(403,'权限不足,不能修改大于自身权限的用户');
             }
             if(isset($_FILES['pic']['tmp_name'])){
                 $info=$this->upOne();
@@ -108,11 +114,20 @@ class ManageController extends BaseController{
     }
     public function del(){
         $id=I('param.id');
-        if($this->manage->delete($id)){
-            $this->apiReturn(200,'删除成功');
+        $oneManage=$this->manage->field('id,groupid')->where(array('id'=>$id))->find();
+        if($oneManage){
+            if($this->group->checkAuth($oneManage['groupid'])){
+                $this->apiReturn(402,'权限不足,不能删除大于自身权限的用户');
+            }
+            if($this->manage->delete($id)){
+                $this->apiReturn(200,'删除成功');
+            }else{
+                $this->apiReturn(404,'删除失败');
+            }
         }else{
-            $this->apiReturn(404,'删除失败');
+            $this->apiReturn(401,'参数错误,未找到该管理员用户信息');
         }
+
     }
     public function setStatus(){
         $data['id']=I('get.id');

@@ -36,6 +36,9 @@ class GroupController extends BaseController{
             if(isset($data['ids']) && !empty($data['ids'])){
                 $data['auth']=implode(',',$data['ids']);
             }
+            if($this->group->checkGroupAuth($data['auth'])){
+                $this->apiReturn(403,'权限不足,不能添加大于自身权限的用户组');
+            }
             if($this->group->create($data)){
                 if($this->group->add()){
                     $this->apiReturn(200,'添加管理组成功',array('url'=>'index.php?s=Admin/Group/index'));
@@ -60,6 +63,9 @@ class GroupController extends BaseController{
             if(isset($data['ids']) && !empty($data['ids'])){
                 $data['auth']=implode(',',$data['ids']);
             }
+            if($this->group->checkGroupAuth($data['auth'])){
+                $this->apiReturn(403,'权限不足,不能修改大于自身权限的用户组');
+            }
             if($this->group->create($data)){
                 if($this->group->save()){
                     $this->apiReturn(200,'修改管理组成功',array('url'=>'index.php?s=Admin/Group/index'));
@@ -80,11 +86,24 @@ class GroupController extends BaseController{
     }
     public function del(){
         $id=I('param.id');
-        if($this->group->delete($id)){
-            $this->apiReturn(200,'删除成功');
+        $oneGroup=$this->group->field('id,auth')->where(array('id'=>$id))->find();
+        if($oneGroup){
+            if($this->group->checkGroupAuth($oneGroup['auth'])){
+                $this->apiReturn(402,'权限不足,不能删除大于自身权限的用户组');
+            }
+            if($this->group->delete($id)){
+                //删除该用户组下的所有用户
+                $managelist=$this->manage->field('id')->where(array('groupid'=>$id))->select();
+                $ids=implode(',',array_column($managelist,'id'));
+                $this->manage->delete($ids);
+                $this->apiReturn(200,'删除成功');
+            }else{
+                $this->apiReturn(404,'删除失败');
+            }
         }else{
-            $this->apiReturn(404,'删除失败');
+            $this->apiReturn(401,'参数错误,未找到该用户组信息');
         }
+
     }
     public function setStatus(){
         $data['id']=I('get.id');

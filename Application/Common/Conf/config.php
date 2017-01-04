@@ -5,7 +5,7 @@ return array(
     //数据库
     'DB_TYPE'=>'mysql',
     'DB_HOST'=>'localhost',
-    'DB_NAME'=>'gmsdb',
+    'DB_NAME'=>'excavator',
     'DB_USER'=>'root',
     'DB_PWD'=>'123456',
     'DB_PREFIX'=>'gms_',
